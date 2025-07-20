@@ -74,7 +74,4 @@ unitycache/
 Logs/
 
 # External packages (optional)
-Packages/manifest.json
-Packages/packages-lock.json
-
 client/project/multi raid/UserSettings/Layouts/*.dwlt
