@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 36
+  controlID: 75
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 385.59998
     height: 716.8
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 347.2
     height: 424
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,17 +336,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\limsg\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\STUDY
-    2025\\Client\\PokeRaid"
+  m_LastProjectPath: "C:\\Users\\limsg\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\test\\PokeRaid"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: aeb00000
-    m_LastClickedID: 45230
-    m_ExpandedIDs: 0000000036b1000038b100003ab10000
+    m_SelectedIDs: 76070100
+    m_LastClickedID: 67446
+    m_ExpandedIDs: 000000004ef2000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -375,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000036b1000038b100003ab10000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -401,9 +400,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 7ccdffff
-    m_LastClickedInstanceID: -12932
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 42fa0000
+    m_LastClickedInstanceID: 64066
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000084b400003cb10000e0c100000eb4000008720000ceb100000000000084b50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -454,8 +453,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1151.4
-    y: 24
+    x: 1150.4
+    y: 79.200005
     width: 384.59998
     height: 690.8
   m_SerializedDataModeController:
@@ -504,7 +503,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79.200005
     width: 346.2
     height: 398
   m_SerializedDataModeController:
@@ -521,9 +520,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 42fa0000
       m_LastClickedID: 0
-      m_ExpandedIDs: bee2ffffcae2ffffececffff1aedffff32edffff28eeffff0cfbffff
+      m_ExpandedIDs: 2222ffff9828ffffb42cffff3a150100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -569,8 +568,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 348.2
-    y: 24
+    x: 347.2
+    y: 79.200005
     width: 801.2
     height: 398
   m_SerializedDataModeController:
@@ -1197,7 +1196,7 @@ MonoBehaviour:
       height: 576
     m_MinimalGUI: 1
   m_defaultScale: 0.6545139
-  m_LastWindowPixelSize: {x: 801.2, y: 398}
+  m_LastWindowPixelSize: {x: 1001.5, y: 497.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1226,7 +1225,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 448
+    y: 503.2
     width: 1149.4
     height: 266.8
   m_SerializedDataModeController:
