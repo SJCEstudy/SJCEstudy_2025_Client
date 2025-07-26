@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class GameDataManager : Singleton<GameDataManager>
 {
+    public LoginData loginData = null;
 
     public int testNum = 5;
     protected override void Awake()
@@ -23,4 +24,9 @@ public class GameDataManager : Singleton<GameDataManager>
         
     }
 
+    public void ResetData()
+    {
+        loginData = null;
+
+    }
 }

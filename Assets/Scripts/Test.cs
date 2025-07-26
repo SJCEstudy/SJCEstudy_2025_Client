@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,8 +11,16 @@ public class Test : MonoBehaviour
         Debug.Log("OnClickTestBtn1");
 
         Debug.Log(GameDataManager.Instance.testNum);
+
     }
 
+    IEnumerator Test2(int num)
+    {
+        Debug.Log(num++);
+        yield return new WaitForSeconds(1);
+        Debug.Log(num);
+
+    }
 
     void Init()
     {
@@ -41,6 +50,7 @@ public class Test : MonoBehaviour
         Debug.LogError("Test Start");
 
         Init();
+        StartCoroutine(Test2(1));
     }
 
     // Update is called once per frame
