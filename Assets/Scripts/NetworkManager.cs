@@ -1,5 +1,7 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -71,6 +73,57 @@ public class NetworkManager : Singleton<NetworkManager>
     #endregion
 
 
+    #region WEB_GET
+
+    public void SendServerGet(string api, List<ServerPacket> packetList, Action<bool> onResult)
+    {
+        Debug.Log(api);
+        StartCoroutine(ServerCallGet(api, packetList, onResult));
+    }
+
+    IEnumerator ServerCallGet(string api, List<ServerPacket> packetList, Action<bool> onResult)
+    {
+        string packetStr = "";
+        if (packetList != null)
+        {
+            for (int i = 0; i < packetList.Count; ++i)
+            {
+                if (packetStr.Length > 0)
+                    packetStr += "&";
+
+                ServerPacket packet = packetList[i];
+                packetStr += packet.packetType + "=" + packet.packetValue;
+            }
+        }
+
+        string url = CommonDefine.WEB_BASE_URL + api;
+        if (packetStr.Length > 0)
+        {
+            url += "?" + packetStr;
+        }
+
+        UnityWebRequest request = UnityWebRequest.Get(url);
+        request.SetRequestHeader("authorization", GameDataManager.Instance.loginData.sessionId);
+
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            Debug.Log("응답: " + request.downloadHandler.text);
+
+            HandleResponse(api, request.downloadHandler.text);
+            //GameDataManager.Instance.token = res.token;
+            onResult?.Invoke(true);
+        }
+        else
+        {
+            Debug.LogError("GET 실패: " + request.error);
+            onResult?.Invoke(false);
+        }
+
+    }
+
+    #endregion
 
     void HandleResponse(string api, string data)
     {
@@ -84,8 +137,30 @@ public class NetworkManager : Singleton<NetworkManager>
                     GameDataManager.Instance.loginData = JsonUtility.FromJson<LoginData>(data);
                 }
                 break;
+            case CommonDefine.GET_MY_POKEMON_URL:
+                {
+                    GameDataManager.Instance.myPokemonList = JsonHelper.FromJson<MyPokemon>(data);
+                    GameDataManager.Instance.myPokemonIds = new HashSet<int>(GameDataManager.Instance.myPokemonList.Select(p => p.poketmonId));
+                }
+                break;
             
 
+        }
+    }
+
+    public static class JsonHelper
+    {
+        public static T[] FromJson<T>(string json)
+        {
+            string newJson = "{ \"array\": " + json + "}";
+            Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(newJson);
+            return wrapper.array;
+        }
+
+        [Serializable]
+        private class Wrapper<T>
+        {
+            public T[] array;
         }
     }
 

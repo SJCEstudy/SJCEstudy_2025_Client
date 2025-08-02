@@ -1,0 +1,4368 @@
+fileFormatVersion: 2
+guid: d8c7f0c6c4bee17419ba02c3ab7b9354
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6970871535402085555
+    second: pokemon-front_0
+  - first:
+      213: -4632964476375151126
+    second: pokemon-front_1
+  - first:
+      213: -5291128512551604761
+    second: pokemon-front_2
+  - first:
+      213: 5575337192867653411
+    second: pokemon-front_3
+  - first:
+      213: -5797710309745928963
+    second: pokemon-front_4
+  - first:
+      213: 7077491080725694015
+    second: pokemon-front_5
+  - first:
+      213: -2890979179000916718
+    second: pokemon-front_6
+  - first:
+      213: -1739075097886847624
+    second: pokemon-front_7
+  - first:
+      213: 773216294011738572
+    second: pokemon-front_8
+  - first:
+      213: 5069811106498945531
+    second: pokemon-front_9
+  - first:
+      213: -5247597798365556812
+    second: pokemon-front_10
+  - first:
+      213: -575479582389887011
+    second: pokemon-front_11
+  - first:
+      213: 9014108505499845211
+    second: pokemon-front_12
+  - first:
+      213: -6472265769177898277
+    second: pokemon-front_13
+  - first:
+      213: 2245155933047362265
+    second: pokemon-front_14
+  - first:
+      213: 9035248399716585290
+    second: pokemon-front_15
+  - first:
+      213: 6740698898909973223
+    second: pokemon-front_16
+  - first:
+      213: 65586341809324698
+    second: pokemon-front_17
+  - first:
+      213: 281138123947998327
+    second: pokemon-front_18
+  - first:
+      213: 615238040540606460
+    second: pokemon-front_19
+  - first:
+      213: -5031888984984389458
+    second: pokemon-front_20
+  - first:
+      213: 5733124181204805196
+    second: pokemon-front_21
+  - first:
+      213: -2278763311688647105
+    second: pokemon-front_22
+  - first:
+      213: 6356333357788851796
+    second: pokemon-front_23
+  - first:
+      213: 8502779423948682844
+    second: pokemon-front_24
+  - first:
+      213: 4348939443801335285
+    second: pokemon-front_25
+  - first:
+      213: -2194116941363638022
+    second: pokemon-front_26
+  - first:
+      213: -8504651643725737438
+    second: pokemon-front_27
+  - first:
+      213: -474428606646129879
+    second: pokemon-front_28
+  - first:
+      213: 2528299773627357583
+    second: pokemon-front_29
+  - first:
+      213: -8076899930882381892
+    second: pokemon-front_30
+  - first:
+      213: 5313942018735587931
+    second: pokemon-front_31
+  - first:
+      213: 8566765500218878407
+    second: pokemon-front_32
+  - first:
+      213: 1666388039592813298
+    second: pokemon-front_33
+  - first:
+      213: -116317318280871698
+    second: pokemon-front_34
+  - first:
+      213: 7719188603977316767
+    second: pokemon-front_35
+  - first:
+      213: 714210452514249487
+    second: pokemon-front_36
+  - first:
+      213: -835195117578445932
+    second: pokemon-front_37
+  - first:
+      213: -1086086109806227485
+    second: pokemon-front_38
+  - first:
+      213: -6937980233016455842
+    second: pokemon-front_39
+  - first:
+      213: 4332784292451944581
+    second: pokemon-front_40
+  - first:
+      213: 6515636841630500546
+    second: pokemon-front_41
+  - first:
+      213: 1166642755425467738
+    second: pokemon-front_42
+  - first:
+      213: -7148950672679076338
+    second: pokemon-front_43
+  - first:
+      213: -8750522913421577368
+    second: pokemon-front_44
+  - first:
+      213: 3035508533354747965
+    second: pokemon-front_45
+  - first:
+      213: 5076651409962449025
+    second: pokemon-front_46
+  - first:
+      213: -4738133115491945027
+    second: pokemon-front_47
+  - first:
+      213: 2130307342113915772
+    second: pokemon-front_48
+  - first:
+      213: 3535073692147348234
+    second: pokemon-front_49
+  - first:
+      213: 2975881352413260305
+    second: pokemon-front_50
+  - first:
+      213: 1998571675945137913
+    second: pokemon-front_51
+  - first:
+      213: 938392083167382208
+    second: pokemon-front_52
+  - first:
+      213: 2598533593115857238
+    second: pokemon-front_53
+  - first:
+      213: 8547834466787631832
+    second: pokemon-front_54
+  - first:
+      213: -3263666359792480470
+    second: pokemon-front_55
+  - first:
+      213: -3253279172806158567
+    second: pokemon-front_56
+  - first:
+      213: 5454893041257092292
+    second: pokemon-front_57
+  - first:
+      213: 4853832677415084865
+    second: pokemon-front_58
+  - first:
+      213: -6016982215357183718
+    second: pokemon-front_59
+  - first:
+      213: -559771704557809072
+    second: pokemon-front_60
+  - first:
+      213: 5541046411156854584
+    second: pokemon-front_61
+  - first:
+      213: 3496403714026947706
+    second: pokemon-front_62
+  - first:
+      213: -2581976611883644396
+    second: pokemon-front_63
+  - first:
+      213: -109876920601475396
+    second: pokemon-front_64
+  - first:
+      213: 2134254636799203414
+    second: pokemon-front_65
+  - first:
+      213: 802376344139018795
+    second: pokemon-front_66
+  - first:
+      213: 6727079506444409045
+    second: pokemon-front_67
+  - first:
+      213: -7683684368405186934
+    second: pokemon-front_68
+  - first:
+      213: -7511497526252729119
+    second: pokemon-front_69
+  - first:
+      213: 8624502431384040461
+    second: pokemon-front_70
+  - first:
+      213: -5175777701601356578
+    second: pokemon-front_71
+  - first:
+      213: 7960832523354919888
+    second: pokemon-front_72
+  - first:
+      213: -8426759297310986089
+    second: pokemon-front_73
+  - first:
+      213: 5122926021643565295
+    second: pokemon-front_74
+  - first:
+      213: 5899133663731510228
+    second: pokemon-front_75
+  - first:
+      213: 1550978422981631944
+    second: pokemon-front_76
+  - first:
+      213: -608168369533840271
+    second: pokemon-front_77
+  - first:
+      213: -5911812319395098000
+    second: pokemon-front_78
+  - first:
+      213: 1810979040377077879
+    second: pokemon-front_79
+  - first:
+      213: -800232500898753612
+    second: pokemon-front_80
+  - first:
+      213: 4675733786928694154
+    second: pokemon-front_81
+  - first:
+      213: 99924000437889693
+    second: pokemon-front_82
+  - first:
+      213: -5673576920666274089
+    second: pokemon-front_83
+  - first:
+      213: -1859934995750469278
+    second: pokemon-front_84
+  - first:
+      213: -6773095646166113894
+    second: pokemon-front_85
+  - first:
+      213: 7506033328926777346
+    second: pokemon-front_86
+  - first:
+      213: -4092315118571725794
+    second: pokemon-front_87
+  - first:
+      213: 6032448035743156214
+    second: pokemon-front_88
+  - first:
+      213: -8815746742210179256
+    second: pokemon-front_89
+  - first:
+      213: -1504890700853975765
+    second: pokemon-front_90
+  - first:
+      213: 9027285569615604012
+    second: pokemon-front_91
+  - first:
+      213: 5004198700538476546
+    second: pokemon-front_92
+  - first:
+      213: 7587073259697564940
+    second: pokemon-front_93
+  - first:
+      213: -843077068054017469
+    second: pokemon-front_94
+  - first:
+      213: -2664610454215301646
+    second: pokemon-front_95
+  - first:
+      213: 4695019828981852214
+    second: pokemon-front_96
+  - first:
+      213: -8324090028903028670
+    second: pokemon-front_97
+  - first:
+      213: 1219629995062731526
+    second: pokemon-front_98
+  - first:
+      213: 4525449372001872581
+    second: pokemon-front_99
+  - first:
+      213: -4710845132141391621
+    second: pokemon-front_100
+  - first:
+      213: -1837828153992962353
+    second: pokemon-front_101
+  - first:
+      213: -4021079548058822650
+    second: pokemon-front_102
+  - first:
+      213: -1189672570833642547
+    second: pokemon-front_103
+  - first:
+      213: 4669876997036281951
+    second: pokemon-front_104
+  - first:
+      213: 2948516653658086217
+    second: pokemon-front_105
+  - first:
+      213: 4867279530891328151
+    second: pokemon-front_106
+  - first:
+      213: 7925277494830845249
+    second: pokemon-front_107
+  - first:
+      213: -6598998703633650650
+    second: pokemon-front_108
+  - first:
+      213: 669472784694557422
+    second: pokemon-front_109
+  - first:
+      213: -5173642630270867948
+    second: pokemon-front_110
+  - first:
+      213: 665941345153194601
+    second: pokemon-front_111
+  - first:
+      213: -9132335428820810099
+    second: pokemon-front_112
+  - first:
+      213: 4853830912675763871
+    second: pokemon-front_113
+  - first:
+      213: -6749903699932132177
+    second: pokemon-front_114
+  - first:
+      213: -1763057893918792551
+    second: pokemon-front_115
+  - first:
+      213: -8837718137898249235
+    second: pokemon-front_116
+  - first:
+      213: -7785208853987854308
+    second: pokemon-front_117
+  - first:
+      213: 4667332305896757766
+    second: pokemon-front_118
+  - first:
+      213: -4474986115320066126
+    second: pokemon-front_119
+  - first:
+      213: 9130621694192578392
+    second: pokemon-front_120
+  - first:
+      213: 6010628874434514643
+    second: pokemon-front_121
+  - first:
+      213: 4803792367352094209
+    second: pokemon-front_122
+  - first:
+      213: -2341372951551817636
+    second: pokemon-front_123
+  - first:
+      213: -8353819324005485161
+    second: pokemon-front_124
+  - first:
+      213: 5427988907195849600
+    second: pokemon-front_125
+  - first:
+      213: 6618984342357663164
+    second: pokemon-front_126
+  - first:
+      213: -8994501457400699634
+    second: pokemon-front_127
+  - first:
+      213: -6429972680172873899
+    second: pokemon-front_128
+  - first:
+      213: 6787206515285094112
+    second: pokemon-front_129
+  - first:
+      213: 7131747888406585657
+    second: pokemon-front_130
+  - first:
+      213: -2385940294622643664
+    second: pokemon-front_131
+  - first:
+      213: -4826376280849462338
+    second: pokemon-front_132
+  - first:
+      213: -2286123178657717206
+    second: pokemon-front_133
+  - first:
+      213: 7136601853496166745
+    second: pokemon-front_134
+  - first:
+      213: 7082177960157190448
+    second: pokemon-front_135
+  - first:
+      213: -6503360994464443953
+    second: pokemon-front_136
+  - first:
+      213: -5204072822643932784
+    second: pokemon-front_137
+  - first:
+      213: 2671728200156130607
+    second: pokemon-front_138
+  - first:
+      213: -5513291521749789341
+    second: pokemon-front_139
+  - first:
+      213: 2203919855732834224
+    second: pokemon-front_140
+  - first:
+      213: 5716901473793447597
+    second: pokemon-front_141
+  - first:
+      213: -7796828844941979255
+    second: pokemon-front_142
+  - first:
+      213: -7268165182637834665
+    second: pokemon-front_143
+  - first:
+      213: 3098526687037395878
+    second: pokemon-front_144
+  - first:
+      213: 4925867031257900229
+    second: pokemon-front_145
+  - first:
+      213: 2471546295896015982
+    second: pokemon-front_146
+  - first:
+      213: -835180925030471494
+    second: pokemon-front_147
+  - first:
+      213: -8837180697992647861
+    second: pokemon-front_148
+  - first:
+      213: 5105033922928782891
+    second: pokemon-front_149
+  - first:
+      213: 2724815900727668592
+    second: pokemon-front_150
+  - first:
+      213: 2259815623384771476
+    second: pokemon-front_151
+  - first:
+      213: 3119984512666692925
+    second: pokemon-front_152
+  - first:
+      213: -5750938585878155033
+    second: pokemon-front_153
+  - first:
+      213: -6663181596631608084
+    second: pokemon-front_154
+  - first:
+      213: 8945133522991345680
+    second: pokemon-front_155
+  - first:
+      213: -2118645167761979201
+    second: pokemon-front_156
+  - first:
+      213: 1394607430772998426
+    second: pokemon-front_157
+  - first:
+      213: -7695158405076086035
+    second: pokemon-front_158
+  - first:
+      213: -6220317682535040384
+    second: pokemon-front_159
+  - first:
+      213: 5828418837549703546
+    second: pokemon-front_160
+  - first:
+      213: 5301095532050223367
+    second: pokemon-front_161
+  - first:
+      213: -6653944745041063506
+    second: pokemon-front_162
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon-front_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 686
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bce58a6ab28db060800000000000000
+      internalID: 6970871535402085555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 685
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedc7a0fa5764bfb0800000000000000
+      internalID: -4632964476375151126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 685
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edab64c6a22296b0800000000000000
+      internalID: -5291128512551604761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 685
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32766e333a39f5d40800000000000000
+      internalID: 5575337192867653411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 685
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df459fcd0356a8fa0800000000000000
+      internalID: -5797710309745928963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 685
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3686a7c3ac483260800000000000000
+      internalID: 7077491080725694015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 686
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2159996f0cd21e7d0800000000000000
+      internalID: -2890979179000916718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 686
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d0ab899609dd7e0800000000000000
+      internalID: -1739075097886847624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_8
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 685
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc91d1b6f140bba00800000000000000
+      internalID: 773216294011738572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_9
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 685
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1233127569b5640800000000000000
+      internalID: 5069811106498945531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_10
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 686
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf8c48fa99cc27b0800000000000000
+      internalID: -5247597798365556812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_11
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 688
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf192c6e5c7308f0800000000000000
+      internalID: -575479582389887011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 628
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52452d4deb881d70800000000000000
+      internalID: 9014108505499845211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 629
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd22b301394ed26a0800000000000000
+      internalID: -6472265769177898277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_14
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 629
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d216aefc65682f10800000000000000
+      internalID: 2245155933047362265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 628
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f068a7c86a36d70800000000000000
+      internalID: 9035248399716585290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_16
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 628
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea456f4fe5cb8d50800000000000000
+      internalID: 6740698898909973223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_17
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 628
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9289ad2e6209e000800000000000000
+      internalID: 65586341809324698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 631
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c7dba52adc6e300800000000000000
+      internalID: 281138123947998327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 628
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffeabafcb3c98800800000000000000
+      internalID: 615238040540606460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 628
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8fdc4d0a32b2ab0800000000000000
+      internalID: -5031888984984389458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_21
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 630
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c462ae14116209f40800000000000000
+      internalID: 5733124181204805196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_22
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 628
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3efa9767d43060e0800000000000000
+      internalID: -2278763311688647105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_23
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 629
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e68f8f28b363850800000000000000
+      internalID: 6356333357788851796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 571
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5636ff16d0fff570800000000000000
+      internalID: 8502779423948682844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 572
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5a679e1698a5c30800000000000000
+      internalID: 4348939443801335285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_26
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 575
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af09a5a444eec81e0800000000000000
+      internalID: -2194116941363638022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_27
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 571
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222194db36869f980800000000000000
+      internalID: -8504651643725737438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_28
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 571
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92be29522bd7a69f0800000000000000
+      internalID: -474428606646129879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_29
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 571
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8952c4af33561320800000000000000
+      internalID: 2528299773627357583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_30
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 571
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7e06d5e4619ef80800000000000000
+      internalID: -8076899930882381892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_31
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 571
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52c1cf8c1aeeb940800000000000000
+      internalID: 5313942018735587931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_32
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 573
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c92e9275d343e670800000000000000
+      internalID: 8566765500218878407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_33
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 571
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2a3e5d713302710800000000000000
+      internalID: 1666388039592813298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_34
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 573
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee084aae302c26ef0800000000000000
+      internalID: -116317318280871698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_35
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 571
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99bf462321102b60800000000000000
+      internalID: 7719188603977316767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 518
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b9bfc5f9269e900800000000000000
+      internalID: 714210452514249487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_37
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 514
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b9892377ac864f0800000000000000
+      internalID: -835195117578445932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_38
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 514
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef838dff627de0f0800000000000000
+      internalID: -1086086109806227485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_39
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 515
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d4f50bcb757bf90800000000000000
+      internalID: -6937980233016455842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_40
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 518
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5888dff9b54212c30800000000000000
+      internalID: 4332784292451944581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_41
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 514
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c685d6af213c6a50800000000000000
+      internalID: 6515636841630500546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_42
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 514
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dfae8a76fb03010800000000000000
+      internalID: 1166642755425467738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_43
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 514
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e7c2e6d33d9cc90800000000000000
+      internalID: -7148950672679076338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_44
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 515
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8633792c5c5ef8680800000000000000
+      internalID: -8750522913421577368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_45
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 514
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38d643adea402a20800000000000000
+      internalID: 3035508533354747965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_46
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 516
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1883c436f83e37640800000000000000
+      internalID: 5076651409962449025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_47
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 515
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db576900905ce3eb0800000000000000
+      internalID: -4738133115491945027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 458
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c734b15ad3f509d10800000000000000
+      internalID: 2130307342113915772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_49
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 463
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03754b1bca1f0130800000000000000
+      internalID: 3535073692147348234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_50
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 462
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a2d48b2547c4920800000000000000
+      internalID: 2975881352413260305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_51
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 457
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6fdd2b95a5cbb10800000000000000
+      internalID: 1998571675945137913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_52
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 458
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca0b39b0a6d50d00800000000000000
+      internalID: 938392083167382208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_53
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 457
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651179a0988df0420800000000000000
+      internalID: 2598533593115857238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_54
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 460
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2a7bfb82200a670800000000000000
+      internalID: 8547834466787631832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_55
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 458
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f4d27ccb025b2d0800000000000000
+      internalID: -3263666359792480470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_56
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 457
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91756b534d70ad2d0800000000000000
+      internalID: -3253279172806158567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_57
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 457
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c411ebd15ca3bb40800000000000000
+      internalID: 5454893041257092292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_58
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 458
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14362887a174c5340800000000000000
+      internalID: 4853832677415084865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_59
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 457
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19cac1fd826f7ca0800000000000000
+      internalID: -6016982215357183718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_60
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 400
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052548ab99a4b38f0800000000000000
+      internalID: -559771704557809072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_61
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 401
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83715fc6a50c5ec40800000000000000
+      internalID: 5541046411156854584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_62
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 400
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74cee537a8b58030800000000000000
+      internalID: 3496403714026947706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_63
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 402
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a0f4e83f9fa2cd0800000000000000
+      internalID: -2581976611883644396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_64
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 400
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6098ad583a97ef0800000000000000
+      internalID: -109876920601475396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_65
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 400
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65895aec8456e9d10800000000000000
+      internalID: 2134254636799203414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_66
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 400
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b223598a80d922b00800000000000000
+      internalID: 802376344139018795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_67
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8dd656b236b5d50800000000000000
+      internalID: 6727079506444409045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_68
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 401
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86bcfed6c11e5590800000000000000
+      internalID: -7683684368405186934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_69
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 406
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec0b782cccc1c790800000000000000
+      internalID: -7511497526252729119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_70
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 400
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04732b444360b770800000000000000
+      internalID: 8624502431384040461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_71
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 401
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4d9a35a91fb28b0800000000000000
+      internalID: -5175777701601356578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 343
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d352fe600f8a7e60800000000000000
+      internalID: 7960832523354919888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 343
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790fe04e0132e0b80800000000000000
+      internalID: -8426759297310986089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_74
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 345
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe87ba2031a481740800000000000000
+      internalID: 5122926021643565295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_75
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 346
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbe34defceedd150800000000000000
+      internalID: 5899133663731510228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_76
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 344
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf9d1488ae268510800000000000000
+      internalID: 1550978422981631944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_77
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 344
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1749e42171a5f87f0800000000000000
+      internalID: -608168369533840271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_78
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 343
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0725da3840605fda0800000000000000
+      internalID: -5911812319395098000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_79
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 343
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7708a5d97d3e12910800000000000000
+      internalID: 1810979040377077879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_80
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 345
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3153eb7c005e4f0800000000000000
+      internalID: -800232500898753612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_81
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 343
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a834d2a2b1b83e040800000000000000
+      internalID: 4675733786928694154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_82
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 346
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ae2a65950036100800000000000000
+      internalID: 99924000437889693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_83
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 343
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d605ddb9d76341b0800000000000000
+      internalID: -5673576920666274089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 286
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261c9f8c9fe2036e0800000000000000
+      internalID: -1859934995750469278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_85
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 290
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91268c25612102a0800000000000000
+      internalID: -6773095646166113894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_86
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 291
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2006ce24b89ca2860800000000000000
+      internalID: 7506033328926777346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_87
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 287
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c5298e41d2537c0800000000000000
+      internalID: -4092315118571725794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_88
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 287
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f74978f68f87b350800000000000000
+      internalID: 6032448035743156214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_89
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 292
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f41c8bb0d28a580800000000000000
+      internalID: -8815746742210179256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_90
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 291
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b256fcd71ed8d1be0800000000000000
+      internalID: -1504890700853975765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_91
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 286
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29a2fe956c574d70800000000000000
+      internalID: 9027285569615604012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_92
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 298
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208311b643c727540800000000000000
+      internalID: 5004198700538476546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_93
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 297
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d63218ee2ba4960800000000000000
+      internalID: 7587073259697564940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_94
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 289
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34acc589fd9cc44f0800000000000000
+      internalID: -843077068054017469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_95
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 289
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f564bbd8e6650bd0800000000000000
+      internalID: -2664610454215301646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_96
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 287
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638e0efb8af082140800000000000000
+      internalID: 4695019828981852214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_97
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 229
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2482ddcb834ea7c80800000000000000
+      internalID: -8324090028903028670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_98
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 222
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6032025c40ffce010800000000000000
+      internalID: 1219629995062731526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_99
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 229
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caaf2b1a30adce30800000000000000
+      internalID: 4525449372001872581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_100
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 234
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf095dabf47bf9eb0800000000000000
+      internalID: -4710845132141391621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_101
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 230
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce990bf709be76e0800000000000000
+      internalID: -1837828153992962353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_102
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 230
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6089d54a4714238c0800000000000000
+      internalID: -4021079548058822650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_103
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 229
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb5f68991f6d7fe0800000000000000
+      internalID: -1189672570833642547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_104
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 230
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f509d11036cbec040800000000000000
+      internalID: 4669876997036281951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_105
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 229
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b1d9b464c3be820800000000000000
+      internalID: 2948516653658086217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_106
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 229
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79abe4502fc0c8340800000000000000
+      internalID: 4867279530891328151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_107
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 230
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d4ac144ed3cfd60800000000000000
+      internalID: 7925277494830845249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_108
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 232
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c27ac54a5ab64a0800000000000000
+      internalID: -6598998703633650650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_109
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 222
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeab28e53f17a4900800000000000000
+      internalID: 669472784694557422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_110
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 178
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41623eb50778338b0800000000000000
+      internalID: -5173642630270867948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_111
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 172
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a1a170026ed3900800000000000000
+      internalID: 665941345153194601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_112
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 172
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86cb6b005d634180800000000000000
+      internalID: -9132335428820810099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_113
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 173
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9659d59f754c5340800000000000000
+      internalID: 4853830912675763871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_114
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 181
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac4371f8568352a0800000000000000
+      internalID: -6749903699932132177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_115
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 212
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994a582cf2c5887e0800000000000000
+      internalID: -1763057893918792551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_116
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 217
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de35c858d2e1a5580800000000000000
+      internalID: -8837718137898249235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_117
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 172
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18f3db8bc165f390800000000000000
+      internalID: -7785208853987854308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_118
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 176
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a5eade002b5c040800000000000000
+      internalID: 4667332305896757766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_119
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 208
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfca8d66d7a5e1c0800000000000000
+      internalID: -4474986115320066126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_120
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 205
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fe2d40e0c76be70800000000000000
+      internalID: 9130621694192578392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_121
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 179
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de00699d1b0a6350800000000000000
+      internalID: 6010628874434514643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_122
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 175
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e11ced4bf7aa240800000000000000
+      internalID: 4803792367352094209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_123
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 175
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58cb08a4b5c18fd0800000000000000
+      internalID: -2341372951551817636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_124
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 173
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795fbd2d595411c80800000000000000
+      internalID: -8353819324005485161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_125
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 178
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b5b220727145b40800000000000000
+      internalID: 5427988907195849600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_126
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 175
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdd914c03b5bdb50800000000000000
+      internalID: 6618984342357663164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_127
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 179
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05e5e3549c1d2380800000000000000
+      internalID: -8994501457400699634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_128
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 178
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55754d23ae524c6a0800000000000000
+      internalID: -6429972680172873899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_129
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 177
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eee8c09d50013e50800000000000000
+      internalID: 6787206515285094112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_130
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 119
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931ed1c3bee09f260800000000000000
+      internalID: 7131747888406585657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_131
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 115
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03af9bb71ff63eed0800000000000000
+      internalID: -2385940294622643664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_132
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 115
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbc8930854450db0800000000000000
+      internalID: -4826376280849462338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_133
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 115
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24e157d41f0640e0800000000000000
+      internalID: -2286123178657717206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_134
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 115
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959880d039d4a0360800000000000000
+      internalID: 7136601853496166745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_135
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 115
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039154fe453f84260800000000000000
+      internalID: 7082177960157190448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_136
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 115
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1d0deb1ab6fb5a0800000000000000
+      internalID: -6503360994464443953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_137
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 117
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0914b05175b67c7b0800000000000000
+      internalID: -5204072822643932784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_138
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 118
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d23b284a2e31520800000000000000
+      internalID: 2671728200156130607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_139
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 115
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3655ee6529adc73b0800000000000000
+      internalID: -5513291521749789341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_140
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 115
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfb2629e65e59e10800000000000000
+      internalID: 2203919855732834224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_141
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 121
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da69d59d993865f40800000000000000
+      internalID: 5716901473793447597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_142
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 59
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981d6b299791cc390800000000000000
+      internalID: -7796828844941979255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_143
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 58
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e7208564a422b90800000000000000
+      internalID: -7268165182637834665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_144
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 58
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a39eebea9d200b20800000000000000
+      internalID: 3098526687037395878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_145
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 60
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c46fe077f13c5440800000000000000
+      internalID: 4925867031257900229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_146
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 64
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6480d4e242bc4220800000000000000
+      internalID: 2471546295896015982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_147
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 60
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab86068af57d864f0800000000000000
+      internalID: -835180925030471494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_148
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 59
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ba5300af60c5580800000000000000
+      internalID: -8837180697992647861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_149
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 63
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e2d762e49b8d640800000000000000
+      internalID: 5105033922928782891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_150
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 58
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f653100ad70d520800000000000000
+      internalID: 2724815900727668592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_151
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 58
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b2ab1265a7c5f10800000000000000
+      internalID: 2259815623384771476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_152
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 60
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3de73642696c4b20800000000000000
+      internalID: 3119984512666692925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_153
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 58
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e035af63df8030b0800000000000000
+      internalID: -5750938585878155033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_154
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce45ad214af9783a0800000000000000
+      internalID: -6663181596631608084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_155
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010765abb8f732c70800000000000000
+      internalID: 8945133522991345680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8037ae17f0992e0800000000000000
+      internalID: -2118645167761979201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_157
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a114850c114aa5310800000000000000
+      internalID: 1394607430772998426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_158
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de21417833e453590800000000000000
+      internalID: -7695158405076086035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_159
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08afa6e360efca9a0800000000000000
+      internalID: -6220317682535040384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_160
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 5
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71685e6d04b2e050800000000000000
+      internalID: 5828418837549703546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_161
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 5
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701934ccc46419940800000000000000
+      internalID: 5301095532050223367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-front_162
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea110cc228078a3a0800000000000000
+      internalID: -6653944745041063506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ee195d8fba5ff5e409024843409b0969
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pokemon-front_0: 6970871535402085555
+      pokemon-front_1: -4632964476375151126
+      pokemon-front_10: -5247597798365556812
+      pokemon-front_100: -4710845132141391621
+      pokemon-front_101: -1837828153992962353
+      pokemon-front_102: -4021079548058822650
+      pokemon-front_103: -1189672570833642547
+      pokemon-front_104: 4669876997036281951
+      pokemon-front_105: 2948516653658086217
+      pokemon-front_106: 4867279530891328151
+      pokemon-front_107: 7925277494830845249
+      pokemon-front_108: -6598998703633650650
+      pokemon-front_109: 669472784694557422
+      pokemon-front_11: -575479582389887011
+      pokemon-front_110: -5173642630270867948
+      pokemon-front_111: 665941345153194601
+      pokemon-front_112: -9132335428820810099
+      pokemon-front_113: 4853830912675763871
+      pokemon-front_114: -6749903699932132177
+      pokemon-front_115: -1763057893918792551
+      pokemon-front_116: -8837718137898249235
+      pokemon-front_117: -7785208853987854308
+      pokemon-front_118: 4667332305896757766
+      pokemon-front_119: -4474986115320066126
+      pokemon-front_12: 9014108505499845211
+      pokemon-front_120: 9130621694192578392
+      pokemon-front_121: 6010628874434514643
+      pokemon-front_122: 4803792367352094209
+      pokemon-front_123: -2341372951551817636
+      pokemon-front_124: -8353819324005485161
+      pokemon-front_125: 5427988907195849600
+      pokemon-front_126: 6618984342357663164
+      pokemon-front_127: -8994501457400699634
+      pokemon-front_128: -6429972680172873899
+      pokemon-front_129: 6787206515285094112
+      pokemon-front_13: -6472265769177898277
+      pokemon-front_130: 7131747888406585657
+      pokemon-front_131: -2385940294622643664
+      pokemon-front_132: -4826376280849462338
+      pokemon-front_133: -2286123178657717206
+      pokemon-front_134: 7136601853496166745
+      pokemon-front_135: 7082177960157190448
+      pokemon-front_136: -6503360994464443953
+      pokemon-front_137: -5204072822643932784
+      pokemon-front_138: 2671728200156130607
+      pokemon-front_139: -5513291521749789341
+      pokemon-front_14: 2245155933047362265
+      pokemon-front_140: 2203919855732834224
+      pokemon-front_141: 5716901473793447597
+      pokemon-front_142: -7796828844941979255
+      pokemon-front_143: -7268165182637834665
+      pokemon-front_144: 3098526687037395878
+      pokemon-front_145: 4925867031257900229
+      pokemon-front_146: 2471546295896015982
+      pokemon-front_147: -835180925030471494
+      pokemon-front_148: -8837180697992647861
+      pokemon-front_149: 5105033922928782891
+      pokemon-front_15: 9035248399716585290
+      pokemon-front_150: 2724815900727668592
+      pokemon-front_151: 2259815623384771476
+      pokemon-front_152: 3119984512666692925
+      pokemon-front_153: -5750938585878155033
+      pokemon-front_154: -6663181596631608084
+      pokemon-front_155: 8945133522991345680
+      pokemon-front_156: -2118645167761979201
+      pokemon-front_157: 1394607430772998426
+      pokemon-front_158: -7695158405076086035
+      pokemon-front_159: -6220317682535040384
+      pokemon-front_16: 6740698898909973223
+      pokemon-front_160: 5828418837549703546
+      pokemon-front_161: 5301095532050223367
+      pokemon-front_162: -6653944745041063506
+      pokemon-front_17: 65586341809324698
+      pokemon-front_18: 281138123947998327
+      pokemon-front_19: 615238040540606460
+      pokemon-front_2: -5291128512551604761
+      pokemon-front_20: -5031888984984389458
+      pokemon-front_21: 5733124181204805196
+      pokemon-front_22: -2278763311688647105
+      pokemon-front_23: 6356333357788851796
+      pokemon-front_24: 8502779423948682844
+      pokemon-front_25: 4348939443801335285
+      pokemon-front_26: -2194116941363638022
+      pokemon-front_27: -8504651643725737438
+      pokemon-front_28: -474428606646129879
+      pokemon-front_29: 2528299773627357583
+      pokemon-front_3: 5575337192867653411
+      pokemon-front_30: -8076899930882381892
+      pokemon-front_31: 5313942018735587931
+      pokemon-front_32: 8566765500218878407
+      pokemon-front_33: 1666388039592813298
+      pokemon-front_34: -116317318280871698
+      pokemon-front_35: 7719188603977316767
+      pokemon-front_36: 714210452514249487
+      pokemon-front_37: -835195117578445932
+      pokemon-front_38: -1086086109806227485
+      pokemon-front_39: -6937980233016455842
+      pokemon-front_4: -5797710309745928963
+      pokemon-front_40: 4332784292451944581
+      pokemon-front_41: 6515636841630500546
+      pokemon-front_42: 1166642755425467738
+      pokemon-front_43: -7148950672679076338
+      pokemon-front_44: -8750522913421577368
+      pokemon-front_45: 3035508533354747965
+      pokemon-front_46: 5076651409962449025
+      pokemon-front_47: -4738133115491945027
+      pokemon-front_48: 2130307342113915772
+      pokemon-front_49: 3535073692147348234
+      pokemon-front_5: 7077491080725694015
+      pokemon-front_50: 2975881352413260305
+      pokemon-front_51: 1998571675945137913
+      pokemon-front_52: 938392083167382208
+      pokemon-front_53: 2598533593115857238
+      pokemon-front_54: 8547834466787631832
+      pokemon-front_55: -3263666359792480470
+      pokemon-front_56: -3253279172806158567
+      pokemon-front_57: 5454893041257092292
+      pokemon-front_58: 4853832677415084865
+      pokemon-front_59: -6016982215357183718
+      pokemon-front_6: -2890979179000916718
+      pokemon-front_60: -559771704557809072
+      pokemon-front_61: 5541046411156854584
+      pokemon-front_62: 3496403714026947706
+      pokemon-front_63: -2581976611883644396
+      pokemon-front_64: -109876920601475396
+      pokemon-front_65: 2134254636799203414
+      pokemon-front_66: 802376344139018795
+      pokemon-front_67: 6727079506444409045
+      pokemon-front_68: -7683684368405186934
+      pokemon-front_69: -7511497526252729119
+      pokemon-front_7: -1739075097886847624
+      pokemon-front_70: 8624502431384040461
+      pokemon-front_71: -5175777701601356578
+      pokemon-front_72: 7960832523354919888
+      pokemon-front_73: -8426759297310986089
+      pokemon-front_74: 5122926021643565295
+      pokemon-front_75: 5899133663731510228
+      pokemon-front_76: 1550978422981631944
+      pokemon-front_77: -608168369533840271
+      pokemon-front_78: -5911812319395098000
+      pokemon-front_79: 1810979040377077879
+      pokemon-front_8: 773216294011738572
+      pokemon-front_80: -800232500898753612
+      pokemon-front_81: 4675733786928694154
+      pokemon-front_82: 99924000437889693
+      pokemon-front_83: -5673576920666274089
+      pokemon-front_84: -1859934995750469278
+      pokemon-front_85: -6773095646166113894
+      pokemon-front_86: 7506033328926777346
+      pokemon-front_87: -4092315118571725794
+      pokemon-front_88: 6032448035743156214
+      pokemon-front_89: -8815746742210179256
+      pokemon-front_9: 5069811106498945531
+      pokemon-front_90: -1504890700853975765
+      pokemon-front_91: 9027285569615604012
+      pokemon-front_92: 5004198700538476546
+      pokemon-front_93: 7587073259697564940
+      pokemon-front_94: -843077068054017469
+      pokemon-front_95: -2664610454215301646
+      pokemon-front_96: 4695019828981852214
+      pokemon-front_97: -8324090028903028670
+      pokemon-front_98: 1219629995062731526
+      pokemon-front_99: 4525449372001872581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
