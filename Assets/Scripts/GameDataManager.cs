@@ -5,6 +5,11 @@ public class GameDataManager : Singleton<GameDataManager>
 {
     public LoginData loginData = null;
 
+    public MyPokemon[] myPokemonList = null;
+    public HashSet<int> myPokemonIds = null;
+
+    public string nextScene = "";
+
     public int testNum = 5;
     protected override void Awake()
     {
@@ -28,5 +33,7 @@ public class GameDataManager : Singleton<GameDataManager>
     {
         loginData = null;
 
+        myPokemonList = null;
+        myPokemonIds = null;
     }
 }

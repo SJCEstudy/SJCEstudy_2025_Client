@@ -24,7 +24,7 @@ public class LoginManager : MonoBehaviour
         loginObj = null;
         registerObj = null;
 
-        //GameDataManager.Instance.ResetData();
+        GameDataManager.Instance.ResetData();
 
         if(canvas == null)
             canvas = GameObject.Find("Canvas").transform;
@@ -108,12 +108,29 @@ public class LoginManager : MonoBehaviour
     {
         if (result)
         {
-            CreateMsgBoxOneBtn("로그인 성공");
+            CreateMsgBoxOneBtn("로그인 성공", GetMyPokemon);
             
         }
         else
         {
             CreateMsgBoxOneBtn("로그인 실패");
+        }
+    }
+
+    void GetMyPokemon()
+    {
+        NetworkManager.Instance.SendServerGet(CommonDefine.GET_MY_POKEMON_URL, null, CallbackMyPokemon);
+    }
+
+    void CallbackMyPokemon(bool result)
+    {
+        if (result)
+        {
+            LoadScene(CommonDefine.GAME_SCENE);
+        }
+        else
+        {
+            CreateMsgBoxOneBtn("내 포켓몬 로드 실패");
         }
     }
 
@@ -136,4 +153,9 @@ public class LoginManager : MonoBehaviour
         }
     }
 
+    void LoadScene(string nextSceneName)
+    {
+        GameDataManager.Instance.nextScene = nextSceneName;
+        SceneManager.LoadScene(CommonDefine.LOADING_SCENE);
+    }
 }
