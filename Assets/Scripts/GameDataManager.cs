@@ -5,8 +5,11 @@ public class GameDataManager : Singleton<GameDataManager>
 {
     public LoginData loginData = null;
 
+    public PokemonShop[] pokemonShopList = null;
     public MyPokemon[] myPokemonList = null;
     public HashSet<int> myPokemonIds = null;
+
+    public double walletBalance = -1;
 
     public string nextScene = "";
 
@@ -33,7 +36,10 @@ public class GameDataManager : Singleton<GameDataManager>
     {
         loginData = null;
 
+        pokemonShopList = null;
         myPokemonList = null;
         myPokemonIds = null;
+
+        walletBalance = -1;
     }
 }

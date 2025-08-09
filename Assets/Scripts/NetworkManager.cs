@@ -70,6 +70,43 @@ public class NetworkManager : Singleton<NetworkManager>
 
     }
 
+
+
+    public void SendServerPost(string api, object packet, Action<bool> onResult)
+    {
+        Debug.Log(api);
+        StartCoroutine(ServerCallPost(api, packet, onResult));
+    }
+
+    IEnumerator ServerCallPost(string api, object packet, Action<bool> onResult)
+    {
+        string json = JsonUtility.ToJson(packet);
+
+        UnityWebRequest request = new UnityWebRequest(CommonDefine.WEB_BASE_URL + api, "POST");
+        byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(json);
+        request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        request.downloadHandler = new DownloadHandlerBuffer();
+        request.SetRequestHeader("Content-Type", "application/json");
+        request.SetRequestHeader("authorization", GameDataManager.Instance.loginData.sessionId);
+
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            Debug.Log("응답: " + request.downloadHandler.text);
+
+            HandleResponse(api, request.downloadHandler.text);
+            //GameDataManager.Instance.token = res.token;
+            onResult?.Invoke(true);
+        }
+        else
+        {
+            Debug.LogError("POST 실패: " + request.error);
+            onResult?.Invoke(false);
+        }
+
+    }
+
     #endregion
 
 
@@ -143,7 +180,18 @@ public class NetworkManager : Singleton<NetworkManager>
                     GameDataManager.Instance.myPokemonIds = new HashSet<int>(GameDataManager.Instance.myPokemonList.Select(p => p.poketmonId));
                 }
                 break;
-            
+            case CommonDefine.GET_MY_WALLET_URL:
+                {
+                    WalletData wallet = JsonUtility.FromJson<WalletData>(data);
+                    GameDataManager.Instance.walletBalance = double.Parse(wallet.balance);
+                }
+                break;
+            case CommonDefine.SHOP_LIST_URL:
+                {
+                    GameDataManager.Instance.pokemonShopList = JsonHelper.FromJson<PokemonShop>(data);
+                }
+                break;
+           
 
         }
     }
@@ -164,7 +212,7 @@ public class NetworkManager : Singleton<NetworkManager>
         }
     }
 
-    async void OnApplicationQuit()
+    void OnApplicationQuit()
     {
        
     }
