@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -26,7 +25,7 @@ public class LoginManager : MonoBehaviour
 
         GameDataManager.Instance.ResetData();
 
-        if(canvas == null)
+        if (canvas == null)
             canvas = GameObject.Find("Canvas").transform;
 
         GameObject prefab = Resources.Load<GameObject>("prefabs/Login");
@@ -126,12 +125,27 @@ public class LoginManager : MonoBehaviour
     {
         if (result)
         {
-            LoadScene(CommonDefine.GAME_SCENE);
+            GetMyWallet();
         }
         else
         {
             CreateMsgBoxOneBtn("내 포켓몬 로드 실패");
         }
+    }
+
+    void GetMyWallet()
+    {
+        NetworkManager.Instance.SendServerGet(CommonDefine.GET_MY_WALLET_URL, null, CallbackMyWallet);
+    }
+
+    void CallbackMyWallet(bool result)
+    {
+        if (!result)
+        {
+            Debug.Log("내 지갑 로드 실패");
+        }
+
+        LoadScene(CommonDefine.GAME_SCENE);
     }
 
     void DestroyObject(GameObject obj)
