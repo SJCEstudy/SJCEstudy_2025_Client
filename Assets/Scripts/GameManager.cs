@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
         lobbyObj = Instantiate(prefab, canvas);
 
         lobbyObj.transform.Find("ShopBtn").GetComponent<Button>().onClick.AddListener(OnClickEnterShop);
+        lobbyObj.transform.Find("InvenBtn").GetComponent<Button>().onClick.AddListener(OnClickEnterInventory);
         lobbyObj.transform.Find("Wallet/LinkWalletBtn").GetComponent<Button>().onClick.AddListener(OnClickLinkWalletPage);
         lobbyObj.transform.Find("Wallet/UpdateWalletBtn").GetComponent<Button>().onClick.AddListener(OnClickUpdateWallet);
         lobbyObj.transform.Find("LogOutBtn").GetComponent<Button>().onClick.AddListener(OnClickLogOut);
@@ -271,6 +272,63 @@ public class GameManager : MonoBehaviour
     void DestroyLoadingCircle()
     {
         DestroyObject(loadingCircleObj);
+    }
+
+
+    void OnClickEnterInventory()
+    {
+        // todo GameDataManager의 내 포켓몬 데이터 확인후 없으면 서버에서 포켓몬 데이터 받아오기
+        if (GameDataManager.Instance.myPokemonList == null)
+        {
+            NetworkManager.Instance.SendServerGet(CommonDefine.GET_MY_POKEMON_URL, null, CallbackMyPokemon);
+        }
+        else
+        {
+            CreateInventory();
+        }
+    }
+
+
+    void CallbackMyPokemon(bool result)
+    {
+        if (result)
+        {
+            CreateInventory();
+
+        }
+        else
+        {
+            CreateMsgBoxOneBtn("내 포켓몬 로드 실패");
+        }
+    }
+
+    void CreateInventory()
+    {
+        GameObject prefab = Resources.Load<GameObject>("prefabs/Inventory");
+        GameObject obj = Instantiate(prefab, canvas);
+
+        obj.transform.Find("closeBtn").GetComponent<Button>().onClick.AddListener(() => DestroyObject(obj));
+
+        obj.transform.Find("Title").GetComponent<TMP_Text>().text = "인벤토리";
+
+        Sprite[] spriteFrontAll = Resources.LoadAll<Sprite>("images/pokemon-front");
+        GameObject itemPrefab = Resources.Load<GameObject>("prefabs/InventoryItem");
+        Transform content = obj.transform.Find("ScrollView/Viewport/Content");
+
+        for (int i = 0; i < GameDataManager.Instance.myPokemonList.Length; i++)
+        {
+            var pokemon = GameDataManager.Instance.myPokemonList[i];
+
+            GameObject itemObj = Instantiate(itemPrefab, content);
+
+            itemObj.transform.Find("Icon/IconImage").GetComponent<Image>().sprite = spriteFrontAll[pokemon.poketmonId - 1];
+
+            itemObj.transform.Find("Title").GetComponent<TMP_Text>().text = pokemon.name;
+            itemObj.transform.Find("Context").GetComponent<TMP_Text>().text = "hp : " + pokemon.hp.ToString();
+
+            itemObj.transform.Find("Button").gameObject.SetActive(false);
+        }
+
     }
 
     void DestroyObject(GameObject obj)
