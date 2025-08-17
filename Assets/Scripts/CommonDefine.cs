@@ -16,10 +16,20 @@ public static class CommonDefine
     public const string SHOP_LIST_URL = "shop/items";
     public const string SHOP_PURCHASE_URL = "shop/purchase";
 
+    public const string ROOM_LIST_URL = "rooms";
+
+    
+
+    public const string WEB_SOCKET_URL = "ws://localhost:3000/rooms";
 
     public const string LOADING_SCENE = "LoadingScene";
     public const string GAME_SCENE = "GameScene";
     public const string LOGIN_SCENE = "SampleScene";
+
+    public const string SOCKET_CREATE_ROOM = "createRoom";
+    public const string SOCKET_ROOM_UPDATE = "roomUpdate";
+    public const string SOCKET_JOIN_ROOM = "joinRoom";
+    public const string SOCKET_LEAVE_ROOM = "leaveRoom";
 }
 
 #region POST_DATA
@@ -46,9 +56,11 @@ public class WalletGetSetPostData
 
 #endregion
 
+[System.Serializable]
 public class LoginData
 {
     public string sessionId;
+    public int seq;
     public string id;
 }
 
@@ -104,3 +116,21 @@ public class ServerPacket
     public string packetValue;
 }
 
+[System.Serializable]
+public class Room
+{
+    public string roomId;
+    public int leaderId;
+    public int bossPokemonId;
+    public List<RoomMember> members;
+    public string eventType;
+}
+
+[System.Serializable]
+public class RoomMember
+{
+    public int userSeq;
+    public string userId;
+    public int pokemonId;
+    public int order;
+}

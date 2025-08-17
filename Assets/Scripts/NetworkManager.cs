@@ -1,12 +1,16 @@
+using SocketIOClient;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class NetworkManager : Singleton<NetworkManager>
 {
+    private SocketIO client = null;
+
     protected override void Awake()
     {
         base.Awake();  // 싱글톤 초기화
@@ -121,7 +125,7 @@ public class NetworkManager : Singleton<NetworkManager>
     IEnumerator ServerCallGet(string api, List<ServerPacket> packetList, Action<bool> onResult)
     {
         string packetStr = "";
-        if (packetList != null)
+        if(packetList != null)
         {
             for (int i = 0; i < packetList.Count; ++i)
             {
@@ -196,6 +200,91 @@ public class NetworkManager : Singleton<NetworkManager>
         }
     }
 
+    
+
+    #region WEB_SOCKET
+
+
+    public async Task ConnectSocket(Action<SocketIOResponse> OnRoomUpdate)
+    {
+        if (client == null || client.Connected == false)
+        {
+            var payload = new Dictionary<string, string>
+            {
+                { "sessionid", GameDataManager.Instance.loginData.sessionId },
+            };
+
+            client = new SocketIO(CommonDefine.WEB_SOCKET_URL, new SocketIOOptions
+            {
+                ExtraHeaders = payload,
+                Reconnection = true,
+                ReconnectionAttempts = 5,
+                ReconnectionDelay = 1000,
+                Transport = SocketIOClient.Transport.TransportProtocol.WebSocket
+            });
+
+            // 이벤트 등록
+            client.OnConnected += OnConnected;
+            client.On(CommonDefine.SOCKET_ROOM_UPDATE, OnRoomUpdate);
+
+            await client.ConnectAsync();
+        }
+    }
+
+    private void OnConnected(object sender, EventArgs e)
+    {
+        Debug.Log("Connected to Socket.IO server");
+        Debug.Log("Connected : " + client.Connected);
+
+    }
+
+    public async void CreateRoom(Action<SocketIOResponse> OnRoomUpdate, int boosId, int pokemonId)
+    {
+        await ConnectSocket(OnRoomUpdate);
+
+        var payload = new Dictionary<string, int>
+        {
+            { "boosId", boosId },
+            { "myPoketmonId", pokemonId },
+        };
+
+        await client.EmitAsync(CommonDefine.SOCKET_CREATE_ROOM, payload);
+    }
+
+    public async void JoinRoom(Action<SocketIOResponse> OnRoomUpdate, string roomId, int pokemonId)
+    {
+        await ConnectSocket(OnRoomUpdate);
+
+        var payload = new Dictionary<string, object>
+        {
+            { "roomId", roomId },
+            { "myPoketmonId", pokemonId },
+        };
+
+        await client.EmitAsync(CommonDefine.SOCKET_JOIN_ROOM, payload);
+    }
+
+    public async void LeaveRoom(Action<SocketIOResponse> OnRoomUpdate, string roomId)
+    {
+        await ConnectSocket(OnRoomUpdate);
+
+        var payload = new Dictionary<string, string>
+        {
+            { "roomId", roomId }
+        };
+
+        await client.EmitAsync(CommonDefine.SOCKET_LEAVE_ROOM, payload);
+    }
+
+    public async Task DisconnectSocket()
+    {
+        if (client != null)
+            await client.DisconnectAsync();
+    }
+
+
+    #endregion
+
     public static class JsonHelper
     {
         public static T[] FromJson<T>(string json)
@@ -212,8 +301,8 @@ public class NetworkManager : Singleton<NetworkManager>
         }
     }
 
-    void OnApplicationQuit()
+    async void OnApplicationQuit()
     {
-       
+        await DisconnectSocket();
     }
 }

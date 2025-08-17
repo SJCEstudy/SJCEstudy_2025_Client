@@ -8,6 +8,9 @@ public class GameDataManager : Singleton<GameDataManager>
     public PokemonShop[] pokemonShopList = null;
     public MyPokemon[] myPokemonList = null;
     public HashSet<int> myPokemonIds = null;
+   
+    public Room[] roomList = null;
+    public Room myRoomInfo = null;
 
     public double walletBalance = -1;
 
@@ -39,6 +42,9 @@ public class GameDataManager : Singleton<GameDataManager>
         pokemonShopList = null;
         myPokemonList = null;
         myPokemonIds = null;
+
+        roomList = null;
+        myRoomInfo = null;
 
         walletBalance = -1;
     }
