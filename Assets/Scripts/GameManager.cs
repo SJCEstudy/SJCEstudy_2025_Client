@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
         lobbyObj = Instantiate(prefab, canvas);
 
         lobbyObj.transform.Find("MakeRoomBtn").GetComponent<Button>().onClick.AddListener(OnClickMakeRoom);
-        //lobbyObj.transform.Find("RoomListBtn").GetComponent<Button>().onClick.AddListener(OnClickRoomList);
+        lobbyObj.transform.Find("RoomListBtn").GetComponent<Button>().onClick.AddListener(OnClickRoomList);
         lobbyObj.transform.Find("ShopBtn").GetComponent<Button>().onClick.AddListener(OnClickEnterShop);
         lobbyObj.transform.Find("InvenBtn").GetComponent<Button>().onClick.AddListener(OnClickEnterInventory);
         lobbyObj.transform.Find("Wallet/LinkWalletBtn").GetComponent<Button>().onClick.AddListener(OnClickLinkWalletPage);
@@ -132,6 +132,86 @@ public class GameManager : MonoBehaviour
         {
             CreateMsgBoxOneBtn("지갑 연동 실패");
         }
+    }
+
+    void OnClickRoomList()
+    {
+        NetworkManager.Instance.SendServerGet(CommonDefine.ROOM_LIST_URL, null, CallbackRoomList);
+    }
+
+    void CallbackRoomList(bool result)
+    {
+        GameObject prefab = Resources.Load<GameObject>("prefabs/RoomList");
+        GameObject obj = Instantiate(prefab, canvas);
+
+        obj.transform.Find("closeBtn").GetComponent<Button>().onClick.AddListener(() => DestroyObject(obj));
+        obj.transform.Find("closeBtn").GetComponent<Button>().onClick.AddListener(() => { GameDataManager.Instance.roomList = null; });
+
+        Sprite[] spriteFrontAll = Resources.LoadAll<Sprite>("images/pokemon-front");
+        GameObject itemPrefab = Resources.Load<GameObject>("prefabs/RoomListItem");
+        Transform content = obj.transform.Find("ScrollView/Viewport/Content");
+
+        for (int i = 0; i < GameDataManager.Instance.roomList.Length; i++)
+        {
+            var room = GameDataManager.Instance.roomList[i];
+
+            GameObject itemObj = Instantiate(itemPrefab, content);
+
+            itemObj.transform.Find("Icon/IconImage").GetComponent<Image>().sprite = spriteFrontAll[room.members[0].pokemonId - 1];
+
+            for (int k = 0; k < room.members.Count; ++k)
+            {
+                var member = room.members[k];
+                if (room.leaderId == member.userSeq)
+                {
+                    itemObj.transform.Find("Title").GetComponent<TMP_Text>().text = member.userId + "의 방";
+                }
+            }
+
+            itemObj.transform.Find("Level").GetComponent<TMP_Text>().text = "Level " + room.bossPokemonId.ToString();
+
+            itemObj.transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => SelectPokemon_JoinRoom(room.roomId, obj));
+        }
+
+    }
+
+    void SelectPokemon_JoinRoom(string roomId, GameObject roomListObj)
+    {
+        GameObject prefab = Resources.Load<GameObject>("prefabs/Inventory");
+        GameObject obj = Instantiate(prefab, canvas);
+
+        obj.transform.Find("closeBtn").GetComponent<Button>().onClick.AddListener(() => DestroyObject(obj));
+
+        obj.transform.Find("Title").GetComponent<TMP_Text>().text = "포켓몬 선택";
+
+        Sprite[] spriteFrontAll = Resources.LoadAll<Sprite>("images/pokemon-front");
+        GameObject itemPrefab = Resources.Load<GameObject>("prefabs/InventoryItem");
+        Transform content = obj.transform.Find("ScrollView/Viewport/Content");
+
+        for (int i = 0; i < GameDataManager.Instance.myPokemonList.Length; i++)
+        {
+            var pokemon = GameDataManager.Instance.myPokemonList[i];
+
+            GameObject itemObj = Instantiate(itemPrefab, content);
+
+            itemObj.transform.Find("Icon/IconImage").GetComponent<Image>().sprite = spriteFrontAll[pokemon.poketmonId - 1];
+
+            itemObj.transform.Find("Title").GetComponent<TMP_Text>().text = pokemon.name;
+            itemObj.transform.Find("Context").GetComponent<TMP_Text>().text = "hp : " + pokemon.hp.ToString();
+
+            itemObj.transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => JoinRoom(roomId, pokemon.poketmonId));
+            itemObj.transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => DestroyObject(obj));
+            itemObj.transform.Find("Button").GetComponent<Button>().onClick.AddListener(() => DestroyObject(roomListObj));
+        }
+
+    }
+
+
+    void JoinRoom(string roomId, int pokemonId)
+    {
+        // todo 포켓몬 구입후 데이터 갱신
+        Debug.Log("JoinRoom : " + roomId);
+        NetworkManager.Instance.JoinRoom(OnRoomUpdate, roomId, pokemonId);
     }
 
     void OnClickEnterShop()

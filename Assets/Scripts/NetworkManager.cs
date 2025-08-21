@@ -195,8 +195,11 @@ public class NetworkManager : Singleton<NetworkManager>
                     GameDataManager.Instance.pokemonShopList = JsonHelper.FromJson<PokemonShop>(data);
                 }
                 break;
-           
-
+            case CommonDefine.ROOM_LIST_URL:
+                {
+                    GameDataManager.Instance.roomList = JsonHelper.FromJson<Room>(data);
+                }
+                break;
         }
     }
 
