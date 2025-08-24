@@ -1,5 +1,6 @@
 using SocketIOClient;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using TMPro;
@@ -15,10 +16,17 @@ public class GameManager : MonoBehaviour
     GameObject shopObj = null;
     GameObject roomObj = null;
     GameObject loadingCircleObj = null;
+    GameObject battleObj = null;
 
     List<GameObject> shopItemsObjList = new List<GameObject>();
 
     static Queue<Action> mainThreadActions = new Queue<Action>();
+
+    BATTLE_STATE battleState = BATTLE_STATE.NONE;
+
+    bool checkBattleCoroutine = false;
+    bool isBattleActionCoroutine = false;
+    bool isBattleBarCoroutine = false;
 
     void Awake()
     {
@@ -37,6 +45,9 @@ public class GameManager : MonoBehaviour
         lobbyObj = null;
         shopObj = null;
         roomObj = null;
+        battleObj = null;
+
+        battleState = BATTLE_STATE.NONE;
 
         if (canvas == null)
             canvas = GameObject.Find("Canvas").transform;
@@ -54,7 +65,7 @@ public class GameManager : MonoBehaviour
 
         UpdateWallet(true);
 
-        await NetworkManager.Instance.ConnectSocket(OnRoomUpdate);
+        await NetworkManager.Instance.ConnectSocket(OnRoomUpdate, OnChangeTurn);
 
     }
 
@@ -63,6 +74,8 @@ public class GameManager : MonoBehaviour
     {
         EasterEgg();
         CheckMainThreadActions();
+        BattleState();
+        CheckBattleCoroutine();
     }
 
     void OnClickLogOut()
@@ -132,6 +145,343 @@ public class GameManager : MonoBehaviour
         {
             CreateMsgBoxOneBtn("지갑 연동 실패");
         }
+    }
+
+    void EnterBattle()
+    {
+        GameDataManager.Instance.curBattleAddInfo = new Dictionary<int, BattleAddInfo>();
+
+        GameObject prefab = Resources.Load<GameObject>("prefabs/Battle");
+        battleObj = Instantiate(prefab, canvas);
+
+        Sprite[] spriteFrontAll = Resources.LoadAll<Sprite>("images/pokemon-front");
+        Sprite[] spriteBackAll = Resources.LoadAll<Sprite>("images/pokemon-back");
+
+        int playerCnt = 1;
+        for (int i = 0; i < GameDataManager.Instance.curBattle.members.Count; i++)
+        {
+            var members = GameDataManager.Instance.curBattle.members[i];
+            int userSeq = members.userSeq;
+            // boss
+            if (userSeq == 0)
+            {
+                battleObj.transform.Find("Boss/Image").GetComponent<Image>().sprite = spriteFrontAll[GameDataManager.Instance.myRoomInfo.bossPokemonId - 1];
+
+                Slider bossHpBar = battleObj.transform.Find("Boss/HpBar").GetComponent<Slider>();
+                bossHpBar.maxValue = 1.0f;
+                bossHpBar.value = 1.0f;
+
+                //Slider bossManaBar = battleObj.transform.Find("Boss/ManaBar").GetComponent<Slider>();
+                //bossManaBar.maxValue = 1.0f;
+                //bossManaBar.value = 1.0f;
+
+                BattleAddInfo addInfo = new BattleAddInfo
+                {
+                    curHp = members.poketmon.hp,
+                    maxHp = members.poketmon.hp,
+                    resPath = "Boss"
+                };
+                GameDataManager.Instance.curBattleAddInfo.Add(userSeq, addInfo);
+
+                battleObj.transform.Find("Boss/HpBar/Text").GetComponent<TMP_Text>().text = members.poketmon.hp.ToString() + " / " + GameDataManager.Instance.curBattleAddInfo[userSeq].maxHp.ToString();
+                //battleObj.transform.Find("Boss/ManaBar/Text").GetComponent<TMP_Text>().text = "100 / 100";
+            }
+            else
+            {
+                string player = "4Player/Player" + playerCnt.ToString();
+                playerCnt++;
+
+                if(GameDataManager.Instance.loginData.seq == userSeq)
+                {
+                    for (int k = 0; k < members.poketmon.skills.Count; ++k)
+                    {
+                        string idx = (k + 1).ToString();
+                        var skill = members.poketmon.skills[k];
+                        var skillData = GameDataManager.Instance.allPokemonData[members.poketmon.seq - 1].skills;
+
+                        battleObj.transform.Find("State/Skill/skill" + idx + "Btn").GetComponent<Button>().onClick.AddListener(() => UseSkill(skill.seq));
+                        battleObj.transform.Find("State/Skill/skill" + idx + "Btn/Text").GetComponent<TMP_Text>().text = skillData[skill.seq - 1].name;
+                    }
+                }
+
+                battleObj.transform.Find(player).gameObject.SetActive(true);
+                battleObj.transform.Find(player + "/Image").GetComponent<Image>().sprite = spriteBackAll[members.poketmon.seq - 1];
+
+                Slider hpBar = battleObj.transform.Find(player + "/HpBar").GetComponent<Slider>();
+                hpBar.maxValue = 1.0f;
+                hpBar.value = 1.0f;
+
+                //Slider manaBar = battleObj.transform.Find(player + "/ManaBar").GetComponent<Slider>();
+                //manaBar.maxValue = 1.0f;
+                //manaBar.value = 1.0f;
+
+                BattleAddInfo addInfo = new BattleAddInfo
+                {
+                    curHp = members.poketmon.hp,
+                    maxHp = members.poketmon.hp,
+                    resPath = player
+                };
+                GameDataManager.Instance.curBattleAddInfo.Add(userSeq, addInfo);
+
+                battleObj.transform.Find(player + "/HpBar/Text").GetComponent<TMP_Text>().text = members.poketmon.hp.ToString() + " / " + GameDataManager.Instance.curBattleAddInfo[userSeq].maxHp.ToString();
+                //battleObj.transform.Find(player + "/ManaBar/Text").GetComponent<TMP_Text>().text = user.curMana.ToString() + " / " + members.poketmon.maxMana;
+            }
+
+        }
+
+        SetBattleTurn(GameDataManager.Instance.curBattle.turn.next);
+    }
+
+    void CheckBattleCoroutine()
+    {
+        if(checkBattleCoroutine)
+        {
+            if(isBattleActionCoroutine == false && isBattleBarCoroutine == false)
+            {
+                checkBattleCoroutine = false;
+                UpdateBattle();
+            }
+        }
+        else
+        {
+            if(GameDataManager.Instance.bossBattle != null)
+            {
+                GameDataManager.Instance.curBattle = GameDataManager.Instance.bossBattle;
+                GameDataManager.Instance.bossBattle = null;
+
+                BattleAction();
+            }
+        }
+    }
+
+    void BattleState()
+    {
+        switch (battleState)
+        {
+            case BATTLE_STATE.NONE:
+            case BATTLE_STATE.WAIT:
+                {
+                    // 전투 상태 아님.
+                }
+                break;
+            case BATTLE_STATE.MY_TURN:
+                {
+                    SetStateActive(false, true);
+
+                    battleState = BATTLE_STATE.WAIT;
+                }
+                break;
+            case BATTLE_STATE.MY_TURN_ACTION:
+                {
+                    SetStateActive(true, false, "공격합니다.");
+
+                    battleState = BATTLE_STATE.WAIT;
+                }
+                break;
+            case BATTLE_STATE.ANOTHER_PLAYER_TURN:
+                {
+                    SetStateActive(true, false, "다른 유저의 순서입니다.");
+
+                    battleState = BATTLE_STATE.WAIT;
+                }
+                break;
+            case BATTLE_STATE.BOSS_TURN:
+                {
+                    SetStateActive(true, false, "보스의 순서입니다.");
+                    
+                    battleState = BATTLE_STATE.WAIT;
+                }
+                break;
+            case BATTLE_STATE.WIN:
+                {
+                    SetStateActive(false, false);
+                    battleObj.transform.Find("State/Result").gameObject.SetActive(true);
+                    battleObj.transform.Find("State/Result/Win").gameObject.SetActive(true);
+                    battleObj.transform.Find("State/Result/Win/Button").GetComponent<Button>().onClick.AddListener(() => DestroyObject(battleObj));
+
+                    battleState = BATTLE_STATE.NONE;
+                    GameDataManager.Instance.ResetBattleData();
+                }
+                break;
+            case BATTLE_STATE.DEFEAT:
+                {
+                    SetStateActive(false, false);
+                    battleObj.transform.Find("State/Result").gameObject.SetActive(true);
+                    battleObj.transform.Find("State/Result/Defeat").gameObject.SetActive(true);
+                    battleObj.transform.Find("State/Result/Defeat/Button").GetComponent<Button>().onClick.AddListener(() => DestroyObject(battleObj));
+                   
+                    battleState = BATTLE_STATE.NONE;
+                    GameDataManager.Instance.ResetBattleData();
+                }
+                break;
+        }
+    }
+
+    void UpdateBattle()
+    {
+        string battleStatus = GameDataManager.Instance.curBattle.status;
+        if (battleStatus == "win")
+        {
+            battleState = BATTLE_STATE.WIN;
+        }
+        else if (battleStatus == "defeat")
+        {
+            battleState = BATTLE_STATE.DEFEAT;
+        }
+        else if (battleStatus == "fighting")
+        {
+            SetBattleTurn(GameDataManager.Instance.curBattle.turn.next);
+        }
+
+    }
+
+    void SetBattleTurn(int turn)
+    {
+        if(turn == 0)
+        {
+            battleState = BATTLE_STATE.BOSS_TURN;
+        }
+        else if(GameDataManager.Instance.loginData.seq == turn)
+        {
+            battleState = BATTLE_STATE.MY_TURN;
+        }
+        else
+        {
+            battleState = BATTLE_STATE.ANOTHER_PLAYER_TURN;
+        }
+    }
+
+    void SetStateActive(bool isStateText, bool isSkill, string stateText = null)
+    {
+        battleObj.transform.Find("State/StateText").gameObject.SetActive(isStateText);
+        battleObj.transform.Find("State/Skill").gameObject.SetActive(isSkill);
+
+        if(stateText != null)
+        {
+            battleObj.transform.Find("State/StateText").GetComponent<TMP_Text>().text = stateText;
+        }
+    }
+
+    void UseSkill(int skillSeq)
+    {
+        battleState = BATTLE_STATE.MY_TURN_ACTION;
+        NetworkManager.Instance.RaidAction(OnRoomUpdate, OnChangeTurn, GameDataManager.Instance.myRoomInfo.roomId, skillSeq);
+    }
+
+    void BattleAction()
+    {
+        checkBattleCoroutine = true;
+
+        for (int i = 0; i < GameDataManager.Instance.curBattle.members.Count; i++)
+        {
+            var members = GameDataManager.Instance.curBattle.members[i];
+            var addInfo = GameDataManager.Instance.curBattleAddInfo[members.userSeq];
+
+            GameDataManager.Instance.curBattleAddInfo[members.userSeq].reduceHp = addInfo.curHp - members.poketmon.hp;
+            GameDataManager.Instance.curBattleAddInfo[members.userSeq].curHp = members.poketmon.hp;
+        }
+
+        int attacker = GameDataManager.Instance.curBattle.action.actor;
+        string attackerResPath = GameDataManager.Instance.curBattleAddInfo[attacker].resPath;
+        Transform attackerTrans = battleObj.transform.Find(attackerResPath + "/Image");
+
+        var targetList = GameDataManager.Instance.curBattle.action.target;
+        for(int i = 0; i < targetList.Count; ++i)
+        {
+            var target = targetList[i];
+            var targetAddInfo = GameDataManager.Instance.curBattleAddInfo[target];
+
+            Transform targetTrans = battleObj.transform.Find(targetAddInfo.resPath + "/Image");
+            Slider hpBar = battleObj.transform.Find(targetAddInfo.resPath + "/HpBar").GetComponent<Slider>();
+
+            StartCoroutine(TackleCoroutine(attackerTrans, targetTrans));
+            StartCoroutine(ReduceBattleBar(hpBar, targetAddInfo.maxHp, targetAddInfo.curHp));
+        }
+    }
+
+    private IEnumerator TackleCoroutine(Transform attacker, Transform target)
+    {
+        isBattleActionCoroutine = true;
+
+        // 1. 목표 방향 계산
+        Vector3 originalPosition = attacker.position;
+        Vector3 targetPosition = target.position;
+
+        // 2. 약간 덜 도착하도록 조정 (중앙까지 가면 겹치므로)
+        Vector3 approachPosition = Vector3.Lerp(originalPosition, targetPosition, 0.8f);
+
+        // 3. 돌진
+        yield return MoveToPosition(attacker, approachPosition);
+
+        // 4. 맞은 효과 (흔들리기)
+        StartCoroutine(HitEffect(target));
+
+        // 5. 대기
+        yield return new WaitForSeconds(CommonDefine.BATTLE_HIT_WAIT_DURATION);
+
+        // 6. 제자리로 복귀
+        yield return MoveToPosition(attacker, originalPosition);
+
+        isBattleActionCoroutine = false;
+    }
+
+    private IEnumerator MoveToPosition(Transform obj, Vector3 destination)
+    {
+        float elapsed = 0f;
+        Vector3 start = obj.position;
+        float duration = CommonDefine.BATTLE_MOVE_DURATION;
+
+        while (elapsed < duration)
+        {
+            obj.position = Vector3.Lerp(start, destination, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        obj.position = destination;
+    }
+
+    private IEnumerator HitEffect(Transform target)
+    {
+        Vector3 original = target.position;
+        float shakeAmount = CommonDefine.BATTLE_HIT_SHAKE_AMOUNT;
+        float duration = CommonDefine.BATTLE_HIT_SHAKE_DURATION;
+
+        for (int i = 0; i < 3; i++)
+        {
+            target.position = original + (Vector3.right * shakeAmount);
+            yield return new WaitForSeconds(duration);
+            target.position = original - (Vector3.right * shakeAmount);
+            yield return new WaitForSeconds(duration);
+        }
+
+        target.position = original;
+    }
+
+    private IEnumerator ReduceBattleBar(Slider bar, int maxValue, int curValue)
+    {
+        isBattleBarCoroutine = true;
+
+        float time = 0f;
+        float startValue = bar.value;
+        int chageValue = curValue;
+        if(chageValue < 0)
+            chageValue = 0;
+        float endValue = (float)chageValue / (float)maxValue;
+
+        while (time < CommonDefine.BATTLE_BAR_DURATION)
+        {
+            time += Time.deltaTime;
+            float t = time / CommonDefine.BATTLE_BAR_DURATION;
+            float cur = Mathf.Lerp(startValue, endValue, t);
+            bar.value = cur;
+            bar.transform.Find("Text").GetComponent<TMP_Text>().text = (cur * maxValue).ToString("F0") + " / " + maxValue.ToString();
+            yield return null;
+        }
+
+        bar.value = endValue;
+
+        isBattleBarCoroutine = false;
     }
 
     void OnClickRoomList()
@@ -211,7 +561,7 @@ public class GameManager : MonoBehaviour
     {
         // todo 포켓몬 구입후 데이터 갱신
         Debug.Log("JoinRoom : " + roomId);
-        NetworkManager.Instance.JoinRoom(OnRoomUpdate, roomId, pokemonId);
+        NetworkManager.Instance.JoinRoom(OnRoomUpdate, OnChangeTurn, roomId, pokemonId);
     }
 
     void OnClickEnterShop()
@@ -436,7 +786,7 @@ public class GameManager : MonoBehaviour
         string level = Regex.Replace(dropdownText, "[^0-9]", "");
         Debug.Log("level : " + level);
 
-        NetworkManager.Instance.CreateRoom(OnRoomUpdate, int.Parse(level), pokemonId);
+        NetworkManager.Instance.CreateRoom(OnRoomUpdate, OnChangeTurn, int.Parse(level), pokemonId);
     }
 
     void OnRoomUpdate(SocketIOResponse response)
@@ -452,6 +802,50 @@ public class GameManager : MonoBehaviour
         catch (Exception ex)
         {
             Debug.LogError($"RoomUpdate error: {ex.Message}");
+        }
+    }
+
+    void OnChangeTurn(SocketIOResponse response)
+    {
+        try
+        {
+            // todo 다른 유저들이 update되지 않음
+            string json = response.GetValue().ToString();
+            Battle battle = JsonUtility.FromJson<Battle>(json);
+            Debug.Log($"OnChangeTurn: {json}");
+
+            SocketBattleHandleResponse(battle);
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"OnChangeTurn error: {ex.Message}");
+        }
+    }
+
+    void SocketBattleHandleResponse(Battle battle)
+    {
+        switch (battle.eventType)
+        {
+            case CommonDefine.SOCKET_START_RAID:
+                {
+                    GameDataManager.Instance.curBattle = battle;
+
+                    mainThreadActions.Enqueue(DestroyRoomObject);
+                    mainThreadActions.Enqueue(EnterBattle);
+                }
+                break;
+            case CommonDefine.SOCKET_RAID_ACTION:
+                {
+                    GameDataManager.Instance.curBattle = battle;
+
+                    mainThreadActions.Enqueue(BattleAction);
+                }
+                break;
+            case CommonDefine.SOCKET_RAID_BOSS_ACTION:
+                {
+                    GameDataManager.Instance.bossBattle = battle;
+                }
+                break;
         }
     }
 
@@ -495,16 +889,18 @@ public class GameManager : MonoBehaviour
             roomObj.transform.Find("Boss/Icon/IconImage").GetComponent<Image>().sprite = spriteFrontAll[GameDataManager.Instance.myRoomInfo.bossPokemonId - 1];
             roomObj.transform.Find("Boss/Level").GetComponent<TMP_Text>().text = "Level " + GameDataManager.Instance.myRoomInfo.bossPokemonId.ToString();
 
-            roomObj.transform.Find("closeBtn").GetComponent<Button>().onClick.AddListener(() => NetworkManager.Instance.LeaveRoom(OnRoomUpdate, GameDataManager.Instance.myRoomInfo.roomId));
+            roomObj.transform.Find("closeBtn").GetComponent<Button>().onClick.AddListener(() => NetworkManager.Instance.LeaveRoom(OnRoomUpdate, OnChangeTurn, GameDataManager.Instance.myRoomInfo.roomId));
             roomObj.transform.Find("closeBtn").GetComponent<Button>().onClick.AddListener(() => DestroyObject(roomObj));
 
             if (GameDataManager.Instance.loginData.seq == GameDataManager.Instance.myRoomInfo.leaderId)
             {
                 roomObj.transform.Find("startBtn").gameObject.SetActive(true);
+                roomObj.transform.Find("startBtn").GetComponent<Button>().onClick.AddListener(() => NetworkManager.Instance.StartRaid(OnRoomUpdate, OnChangeTurn, GameDataManager.Instance.myRoomInfo.roomId));
             }
             else
             {
                 roomObj.transform.Find("startBtn").gameObject.SetActive(false);
+                roomObj.transform.Find("startBtn").GetComponent<Button>().onClick.RemoveAllListeners();
             }
         }
 
@@ -574,7 +970,7 @@ public class GameManager : MonoBehaviour
             {
                 if (leaveLeader)
                 {
-                    NetworkManager.Instance.LeaveRoom(OnRoomUpdate, GameDataManager.Instance.myRoomInfo.roomId);
+                    NetworkManager.Instance.LeaveRoom(OnRoomUpdate, OnChangeTurn, GameDataManager.Instance.myRoomInfo.roomId);
                     DestroyRoomObject();
                     CreateMsgBoxOneBtn("방장이 방을 나갔습니다.");
                 }

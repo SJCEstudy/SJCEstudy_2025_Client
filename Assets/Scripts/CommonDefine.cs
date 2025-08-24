@@ -18,6 +18,7 @@ public static class CommonDefine
 
     public const string ROOM_LIST_URL = "rooms";
 
+    public const string GET_ALL_POKEMON_DATA_URL = "pokemons/all";
     
 
     public const string WEB_SOCKET_URL = "ws://localhost:3000/rooms";
@@ -30,6 +31,17 @@ public static class CommonDefine
     public const string SOCKET_ROOM_UPDATE = "roomUpdate";
     public const string SOCKET_JOIN_ROOM = "joinRoom";
     public const string SOCKET_LEAVE_ROOM = "leaveRoom";
+    public const string SOCKET_START_RAID = "startRaid";
+    public const string SOCKET_RAID_ACTION = "action";
+    public const string SOCKET_RAID_BOSS_ACTION = "boss_action";
+    public const string SOCKET_CHANGE_TURN = "changeTurn";
+
+    public const float BATTLE_MOVE_DURATION = 0.2f;
+    public const float BATTLE_HIT_WAIT_DURATION = 0.1f;
+    public const float BATTLE_HIT_SHAKE_AMOUNT = 1.5f;
+    public const float BATTLE_HIT_SHAKE_DURATION = 0.1f;
+    public const float BATTLE_BAR_DURATION = 3f;
+
 }
 
 #region POST_DATA
@@ -134,3 +146,75 @@ public class RoomMember
     public int pokemonId;
     public int order;
 }
+
+public enum BATTLE_STATE
+{
+    NONE,
+    WAIT,
+    MY_TURN,
+    MY_TURN_ACTION,
+    ANOTHER_PLAYER_TURN,
+    BOSS_TURN,
+    WIN,
+    DEFEAT,
+}
+
+[System.Serializable]
+public class Battle
+{
+    public List<BattleMember> members;
+    public BattleTurn turn;
+    public BattleAction action;
+    public string status;
+    public string eventType;
+}
+
+[System.Serializable]
+public class BattleMember
+{
+    public int order;
+    public int userSeq;
+    public string connectionStatus;
+    public BattlePokemon poketmon;
+    public string resPath;
+}
+
+[System.Serializable]
+public class BattlePokemon
+{
+    public int seq;
+    public int hp;
+    public List<BattlePokemonSkill> skills;
+}
+
+[System.Serializable]
+public class BattlePokemonSkill
+{
+    public int seq;
+    public int pp;
+}
+
+[System.Serializable]
+public class BattleTurn
+{
+    public int count;
+    public int next;
+}
+
+[System.Serializable]
+public class BattleAction
+{
+    public int actor;
+    public int skill;
+    public List<int> target;
+}
+
+[System.Serializable]
+public class BattleAddInfo
+{
+    public int curHp;
+    public int maxHp;
+    public int reduceHp;
+    public string resPath;
+}
+

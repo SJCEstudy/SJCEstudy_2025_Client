@@ -1,0 +1,4238 @@
+fileFormatVersion: 2
+guid: e09f080d398e4f541989284be51aad59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7907813784081354256
+    second: pokemon-back_0
+  - first:
+      213: -7784781817899883503
+    second: pokemon-back_1
+  - first:
+      213: 1913447183115401240
+    second: pokemon-back_2
+  - first:
+      213: -4696077446009522688
+    second: pokemon-back_3
+  - first:
+      213: -3331971585869470499
+    second: pokemon-back_4
+  - first:
+      213: -7312045647324493042
+    second: pokemon-back_5
+  - first:
+      213: 3570408334675729488
+    second: pokemon-back_6
+  - first:
+      213: 4361804613339282147
+    second: pokemon-back_7
+  - first:
+      213: 487865835440712134
+    second: pokemon-back_8
+  - first:
+      213: 2656941310013317112
+    second: pokemon-back_9
+  - first:
+      213: 9085940549818361278
+    second: pokemon-back_10
+  - first:
+      213: -1620448413356954911
+    second: pokemon-back_11
+  - first:
+      213: 771923108507258113
+    second: pokemon-back_12
+  - first:
+      213: 8458708066758575084
+    second: pokemon-back_13
+  - first:
+      213: -4326022952281163396
+    second: pokemon-back_14
+  - first:
+      213: -1055788507865508370
+    second: pokemon-back_15
+  - first:
+      213: -2861628799075650872
+    second: pokemon-back_16
+  - first:
+      213: -6486181652676171140
+    second: pokemon-back_17
+  - first:
+      213: -2298654840198754193
+    second: pokemon-back_18
+  - first:
+      213: 6809403365893448082
+    second: pokemon-back_19
+  - first:
+      213: 7343117685868038333
+    second: pokemon-back_20
+  - first:
+      213: 1196832828215077648
+    second: pokemon-back_21
+  - first:
+      213: -1070300590255400309
+    second: pokemon-back_22
+  - first:
+      213: 7491327988725942927
+    second: pokemon-back_23
+  - first:
+      213: -5673417696062701523
+    second: pokemon-back_24
+  - first:
+      213: -3529219909752338987
+    second: pokemon-back_25
+  - first:
+      213: -4952774779424973484
+    second: pokemon-back_26
+  - first:
+      213: -913980315552060543
+    second: pokemon-back_27
+  - first:
+      213: -3532128841638127188
+    second: pokemon-back_28
+  - first:
+      213: -7941528703099990968
+    second: pokemon-back_29
+  - first:
+      213: 2756361126351629955
+    second: pokemon-back_30
+  - first:
+      213: 6709845512460652809
+    second: pokemon-back_31
+  - first:
+      213: 2761602019575224222
+    second: pokemon-back_32
+  - first:
+      213: -4132623930241975946
+    second: pokemon-back_33
+  - first:
+      213: 6803113287747811371
+    second: pokemon-back_34
+  - first:
+      213: 2877619489868184267
+    second: pokemon-back_35
+  - first:
+      213: -1629814627660687391
+    second: pokemon-back_36
+  - first:
+      213: -5822103557976661678
+    second: pokemon-back_37
+  - first:
+      213: -5364869955945444652
+    second: pokemon-back_38
+  - first:
+      213: -1870026025513460686
+    second: pokemon-back_39
+  - first:
+      213: 5972189583248032982
+    second: pokemon-back_40
+  - first:
+      213: 3750682107798500758
+    second: pokemon-back_41
+  - first:
+      213: 4238605893499445324
+    second: pokemon-back_42
+  - first:
+      213: -8890729339842105390
+    second: pokemon-back_43
+  - first:
+      213: 2482629053635092091
+    second: pokemon-back_44
+  - first:
+      213: -1016878703355002432
+    second: pokemon-back_45
+  - first:
+      213: 7335031547139631375
+    second: pokemon-back_46
+  - first:
+      213: -3257622517485586643
+    second: pokemon-back_47
+  - first:
+      213: 1271156063366844077
+    second: pokemon-back_48
+  - first:
+      213: 7158754490141867487
+    second: pokemon-back_49
+  - first:
+      213: -5472777199632906713
+    second: pokemon-back_50
+  - first:
+      213: 6699532932543228997
+    second: pokemon-back_51
+  - first:
+      213: 920628408210616463
+    second: pokemon-back_52
+  - first:
+      213: -3600926198124611475
+    second: pokemon-back_53
+  - first:
+      213: 7212938950961219521
+    second: pokemon-back_54
+  - first:
+      213: 6272342008007205977
+    second: pokemon-back_55
+  - first:
+      213: 446891013698112646
+    second: pokemon-back_56
+  - first:
+      213: 7116750102645402473
+    second: pokemon-back_57
+  - first:
+      213: 4859492506372883695
+    second: pokemon-back_58
+  - first:
+      213: -2276395318223704686
+    second: pokemon-back_59
+  - first:
+      213: -6818626986735852012
+    second: pokemon-back_60
+  - first:
+      213: -5296874181293384085
+    second: pokemon-back_61
+  - first:
+      213: -5341341362759702990
+    second: pokemon-back_62
+  - first:
+      213: -2796123230600793685
+    second: pokemon-back_63
+  - first:
+      213: 7005462161227353048
+    second: pokemon-back_64
+  - first:
+      213: -7254495350011865816
+    second: pokemon-back_65
+  - first:
+      213: 5847188802673024900
+    second: pokemon-back_66
+  - first:
+      213: -566551451881548578
+    second: pokemon-back_67
+  - first:
+      213: 5981444921913440793
+    second: pokemon-back_68
+  - first:
+      213: -1217325566537543834
+    second: pokemon-back_69
+  - first:
+      213: 1363772629186602217
+    second: pokemon-back_70
+  - first:
+      213: 4150807307285888896
+    second: pokemon-back_71
+  - first:
+      213: -4652881522432441087
+    second: pokemon-back_72
+  - first:
+      213: -4992731921378844283
+    second: pokemon-back_73
+  - first:
+      213: 5903174116698830371
+    second: pokemon-back_74
+  - first:
+      213: -3171404322686516900
+    second: pokemon-back_75
+  - first:
+      213: 2368744222194005673
+    second: pokemon-back_76
+  - first:
+      213: -3511467720999949435
+    second: pokemon-back_77
+  - first:
+      213: 5356818480465187944
+    second: pokemon-back_78
+  - first:
+      213: 2960919290388689561
+    second: pokemon-back_79
+  - first:
+      213: -346147703567666441
+    second: pokemon-back_80
+  - first:
+      213: -4856841288382489115
+    second: pokemon-back_81
+  - first:
+      213: -1783101847584235024
+    second: pokemon-back_82
+  - first:
+      213: 3808972031162059093
+    second: pokemon-back_83
+  - first:
+      213: -542652298875521927
+    second: pokemon-back_84
+  - first:
+      213: 4896462825910765785
+    second: pokemon-back_85
+  - first:
+      213: 4448833427159199010
+    second: pokemon-back_86
+  - first:
+      213: 3285997438271277989
+    second: pokemon-back_87
+  - first:
+      213: -4070025628376507712
+    second: pokemon-back_88
+  - first:
+      213: -6316784237970914955
+    second: pokemon-back_89
+  - first:
+      213: -8901504008962454269
+    second: pokemon-back_90
+  - first:
+      213: 1097879090273364272
+    second: pokemon-back_91
+  - first:
+      213: -7885981381753763176
+    second: pokemon-back_92
+  - first:
+      213: 526954691579169837
+    second: pokemon-back_93
+  - first:
+      213: 2927301560079284302
+    second: pokemon-back_94
+  - first:
+      213: -6532920817416297973
+    second: pokemon-back_95
+  - first:
+      213: -2735268371781406944
+    second: pokemon-back_96
+  - first:
+      213: -4367752431708675125
+    second: pokemon-back_97
+  - first:
+      213: -758549016960309287
+    second: pokemon-back_98
+  - first:
+      213: -1236851393455055864
+    second: pokemon-back_99
+  - first:
+      213: -4651363206650636274
+    second: pokemon-back_100
+  - first:
+      213: -4861767292712467172
+    second: pokemon-back_101
+  - first:
+      213: 4686799929838784639
+    second: pokemon-back_102
+  - first:
+      213: -5791247386294083850
+    second: pokemon-back_103
+  - first:
+      213: 7514860488135612139
+    second: pokemon-back_104
+  - first:
+      213: 9061977990041225726
+    second: pokemon-back_105
+  - first:
+      213: 1919335306375832192
+    second: pokemon-back_106
+  - first:
+      213: -8290116133900456548
+    second: pokemon-back_107
+  - first:
+      213: 6144535811537603352
+    second: pokemon-back_108
+  - first:
+      213: 3184073285178199266
+    second: pokemon-back_109
+  - first:
+      213: 8813874269915196129
+    second: pokemon-back_110
+  - first:
+      213: -3915106095413674987
+    second: pokemon-back_111
+  - first:
+      213: 7384024324013155840
+    second: pokemon-back_112
+  - first:
+      213: 7416230097192759989
+    second: pokemon-back_113
+  - first:
+      213: 118291370433264459
+    second: pokemon-back_114
+  - first:
+      213: -1770317106922110696
+    second: pokemon-back_115
+  - first:
+      213: 5762754500748411321
+    second: pokemon-back_116
+  - first:
+      213: -7215593309965687056
+    second: pokemon-back_117
+  - first:
+      213: -8686314806882950317
+    second: pokemon-back_118
+  - first:
+      213: 8079413812380061384
+    second: pokemon-back_119
+  - first:
+      213: 4359245089497706776
+    second: pokemon-back_120
+  - first:
+      213: 6647258501217228976
+    second: pokemon-back_121
+  - first:
+      213: 6587986465304578127
+    second: pokemon-back_122
+  - first:
+      213: -2252120151484235832
+    second: pokemon-back_123
+  - first:
+      213: -148483707367623393
+    second: pokemon-back_124
+  - first:
+      213: -7956104384771774149
+    second: pokemon-back_125
+  - first:
+      213: 4163729293601752360
+    second: pokemon-back_126
+  - first:
+      213: 3302156221706841728
+    second: pokemon-back_127
+  - first:
+      213: -4947292717084362373
+    second: pokemon-back_128
+  - first:
+      213: -6444227251325221153
+    second: pokemon-back_129
+  - first:
+      213: 3342455377280686171
+    second: pokemon-back_130
+  - first:
+      213: -6061807227935519210
+    second: pokemon-back_131
+  - first:
+      213: -3904419893092664587
+    second: pokemon-back_132
+  - first:
+      213: -6294672579349127309
+    second: pokemon-back_133
+  - first:
+      213: -4510119051720344137
+    second: pokemon-back_134
+  - first:
+      213: 7627089784760830533
+    second: pokemon-back_135
+  - first:
+      213: -6997241663354040920
+    second: pokemon-back_136
+  - first:
+      213: -4242259845001515766
+    second: pokemon-back_137
+  - first:
+      213: -3765467176847466635
+    second: pokemon-back_138
+  - first:
+      213: 6691028910187757576
+    second: pokemon-back_139
+  - first:
+      213: 5033099083298623037
+    second: pokemon-back_140
+  - first:
+      213: 9139174537118124468
+    second: pokemon-back_141
+  - first:
+      213: -7656366030982324467
+    second: pokemon-back_142
+  - first:
+      213: 2066034212816296498
+    second: pokemon-back_143
+  - first:
+      213: 8545656259412153534
+    second: pokemon-back_144
+  - first:
+      213: -3875554959523188479
+    second: pokemon-back_145
+  - first:
+      213: -3213497061846770948
+    second: pokemon-back_146
+  - first:
+      213: 7547146588152841127
+    second: pokemon-back_147
+  - first:
+      213: 7047345858836855019
+    second: pokemon-back_148
+  - first:
+      213: 7205509374608362476
+    second: pokemon-back_149
+  - first:
+      213: 7587471047710141714
+    second: pokemon-back_150
+  - first:
+      213: 7048554293506716041
+    second: pokemon-back_151
+  - first:
+      213: -2617320077647945250
+    second: pokemon-back_152
+  - first:
+      213: 6443594696873465935
+    second: pokemon-back_153
+  - first:
+      213: -984424678162729316
+    second: pokemon-back_154
+  - first:
+      213: -5988001743338702965
+    second: pokemon-back_155
+  - first:
+      213: -1552354335530219503
+    second: pokemon-back_156
+  - first:
+      213: 7729910191551677510
+    second: pokemon-back_157
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon-back_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 592
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1b4e1c24dc14290800000000000000
+      internalID: -7907813784081354256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 586
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1146822ae26e6f390800000000000000
+      internalID: -7784781817899883503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 586
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818b01e331eed8a10800000000000000
+      internalID: 1913447183115401240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 586
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006f0e8917e24deb0800000000000000
+      internalID: -4696077446009522688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 621
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd42e860f7572c1d0800000000000000
+      internalID: -3331971585869470499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 583
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b48c18935668a90800000000000000
+      internalID: -7312045647324493042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 580
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cd07ba673ac8130800000000000000
+      internalID: 3570408334675729488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_7
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 591
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea7fbd9f2e388c30800000000000000
+      internalID: 4361804613339282147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 586
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c92e7b746f35c600800000000000000
+      internalID: 487865835440712134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 586
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff976c5b0a5fd420800000000000000
+      internalID: 2656941310013317112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_10
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 591
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5ad3a6aceb71e70800000000000000
+      internalID: 9085940549818361278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_11
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 588
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea6309e0c20389e0800000000000000
+      internalID: -1620448413356954911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_12
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 580
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d8d743afb66ba00800000000000000
+      internalID: 771923108507258113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_13
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 587
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce340e9ab2e536570800000000000000
+      internalID: 8458708066758575084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_14
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 586
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79381f8b01e6f3c0800000000000000
+      internalID: -4326022952281163396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_15
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 585
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee59cb622f51951f0800000000000000
+      internalID: -1055788507865508370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_16
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 584
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c27110d4c37948d0800000000000000
+      internalID: -2861628799075650872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_17
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 587
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7aa493f6247cf5a0800000000000000
+      internalID: -6486181652676171140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 524
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6098b40a998910e0800000000000000
+      internalID: -2298654840198754193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 518
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291ad64984cdf7e50800000000000000
+      internalID: 6809403365893448082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 525
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db88d0a31aef7e560800000000000000
+      internalID: 7343117685868038333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 525
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b294dbd110c9010800000000000000
+      internalID: 1196832828215077648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_22
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 524
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a9feaa8478521f0800000000000000
+      internalID: -1070300590255400309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 517
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a83ff6d1b86f760800000000000000
+      internalID: 7491327988725942927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 521
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2084cb1aa8f341b0800000000000000
+      internalID: -5673417696062701523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_25
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 521
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5c9f0d031b50fc0800000000000000
+      internalID: -3529219909752338987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_26
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 516
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d5cdb3495344bb0800000000000000
+      internalID: -4952774779424973484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_27
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 519
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18be1d7deb3e053f0800000000000000
+      internalID: -913980315552060543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_28
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 520
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca95f35588b5bfec0800000000000000
+      internalID: -3532128841638127188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_29
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 525
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c082678b50ac190800000000000000
+      internalID: -7941528703099990968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_30
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 521
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e62e037df804620800000000000000
+      internalID: 2756361126351629955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_31
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 524
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90157fb71f82e1d50800000000000000
+      internalID: 6709845512460652809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_32
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 522
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9758cbb76e235620800000000000000
+      internalID: 2761602019575224222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_33
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 518
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679f5a75e68f5a6c0800000000000000
+      internalID: -4132623930241975946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_34
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 520
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28b2f2ad73896e50800000000000000
+      internalID: 6803113287747811371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 457
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca75540eab5fe720800000000000000
+      internalID: 2877619489868184267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 451
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e79c843b3cb169e0800000000000000
+      internalID: -1629814627660687391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_37
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 461
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251634d29abb33fa0800000000000000
+      internalID: -5822103557976661678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_38
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 458
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dac4b903372c85b0800000000000000
+      internalID: -5364869955945444652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_39
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 457
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cd884dc355c06e0800000000000000
+      internalID: -1870026025513460686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 452
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d489c0b8ca71e250800000000000000
+      internalID: 5972189583248032982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_41
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 461
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6953ebc41891d0430800000000000000
+      internalID: 3750682107798500758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_42
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 456
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4069e06a9d82da30800000000000000
+      internalID: 4238605893499445324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_43
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 459
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df619045c8cd9480800000000000000
+      internalID: -8890729339842105390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_44
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 454
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7edbf288f1147220800000000000000
+      internalID: 2482629053635092091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_45
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 456
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c18ddaf43253e1f0800000000000000
+      internalID: -1016878703355002432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_46
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 459
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09aa8754544bc560800000000000000
+      internalID: 7335031547139631375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_47
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 455
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2735f874999ac2d0800000000000000
+      internalID: -3257622517485586643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_48
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 468
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae801b64bd04a110800000000000000
+      internalID: 1271156063366844077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_49
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 455
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd7323b741095360800000000000000
+      internalID: 7158754490141867487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_50
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 454
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7260609022acc04b0800000000000000
+      internalID: -5472777199632906713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_51
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 388
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c254dd4b589fc50800000000000000
+      internalID: 6699532932543228997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_52
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 400
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80f689d8aab6cc00800000000000000
+      internalID: 920628408210616463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_53
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 395
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68726a83b0f60ec0800000000000000
+      internalID: -3600926198124611475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 396
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c74f9692c1891460800000000000000
+      internalID: 7212938950961219521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_55
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 391
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954a701f2d5db0750800000000000000
+      internalID: 6272342008007205977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_56
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 391
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c4acc520da33600800000000000000
+      internalID: 446891013698112646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_57
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 389
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b676f1386c3c260800000000000000
+      internalID: 7116750102645402473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_58
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 395
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4470710b2607340800000000000000
+      internalID: 4859492506372883695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_59
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 391
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29de9e8d48e9860e0800000000000000
+      internalID: -2276395318223704686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_60
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 392
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416a7b7d1ee5f51a0800000000000000
+      internalID: -6818626986735852012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_61
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 390
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ed1140ff8bd76b0800000000000000
+      internalID: -5296874181293384085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_62
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 400
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2366b98845ebfd5b0800000000000000
+      internalID: -5341341362759702990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_63
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 397
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba172db7cbc2239d0800000000000000
+      internalID: -2796123230600793685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_64
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 394
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db856718b6683160800000000000000
+      internalID: 7005462161227353048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_65
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 396
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825d1d54aead25b90800000000000000
+      internalID: -7254495350011865816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_66
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 393
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f97fd7c33652150800000000000000
+      internalID: 5847188802673024900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed45e9bc4743328f0800000000000000
+      internalID: -566551451881548578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 326
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91af636277c520350800000000000000
+      internalID: 5981444921913440793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_69
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 332
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f478ec8d03b1fe0800000000000000
+      internalID: -1217325566537543834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_70
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 329
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4611d0bf71de210800000000000000
+      internalID: 1363772629186602217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_71
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 324
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ffed90141aa9930800000000000000
+      internalID: 4150807307285888896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 330
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1058f6948e4ad6fb0800000000000000
+      internalID: -4652881522432441087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_73
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 329
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581e57725c046bab0800000000000000
+      internalID: -4992731921378844283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_74
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 326
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3263d1135994ce150800000000000000
+      internalID: 5903174116698830371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_75
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 330
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51c1234298ecf3d0800000000000000
+      internalID: -3171404322686516900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_76
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 331
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6f1a7e1587fd020800000000000000
+      internalID: 2368744222194005673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_77
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 331
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b2c8956b2c44fc0800000000000000
+      internalID: -3511467720999949435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_78
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 332
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864106eb60e375a40800000000000000
+      internalID: 5356818480465187944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_79
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 336
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9923830386c471920800000000000000
+      internalID: 2960919290388689561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_80
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 329
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f238016f7c323bf0800000000000000
+      internalID: -346147703567666441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_81
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 325
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edd283b498099cb0800000000000000
+      internalID: -4856841288382489115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_82
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 334
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1266021562147e0800000000000000
+      internalID: -1783101847584235024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_83
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 330
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55900dca1ef2cd430800000000000000
+      internalID: 3808972031162059093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_84
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 276
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974b9f8fb9c1878f0800000000000000
+      internalID: -542652298875521927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_85
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 266
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d801526ffab3f340800000000000000
+      internalID: 4896462825910765785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_86
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 266
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d25ba5e6e6dbd30800000000000000
+      internalID: 4448833427159199010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_87
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 264
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abc00992453a9d20800000000000000
+      internalID: 3285997438271277989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_88
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 257
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cad1e1414d5487c0800000000000000
+      internalID: -4070025628376507712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_89
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 266
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57105fc04364658a0800000000000000
+      internalID: -6316784237970914955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_90
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 261
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30dc31b1441877480800000000000000
+      internalID: -8901504008962454269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_91
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 269
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039a21e37337c3f00800000000000000
+      internalID: 1097879090273364272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 269
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a093b07bd5f8290800000000000000
+      internalID: -7885981381753763176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_93
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 267
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c4d44008e105700800000000000000
+      internalID: 526954691579169837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_94
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 262
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48f8f6624ddf9820800000000000000
+      internalID: 2927301560079284302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_95
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 270
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02a52421276655a0800000000000000
+      internalID: -6532920817416297973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_96
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 265
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fab9e68ef5a0ad0800000000000000
+      internalID: -2735268371781406944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_97
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 266
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3e7210e40a263c0800000000000000
+      internalID: -4367752431708675125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_98
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 256
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7eb5320b71975f0800000000000000
+      internalID: -758549016960309287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_99
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 269
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c1a25f532d5dee0800000000000000
+      internalID: -1236851393455055864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_100
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 201
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08544abec9037fb0800000000000000
+      internalID: -4651363206650636274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_101
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 202
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15c241f768878cb0800000000000000
+      internalID: -4861767292712467172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_102
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 196
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70dd5754bbda0140800000000000000
+      internalID: 4686799929838784639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_103
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 206
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe188d7f2b51afa0800000000000000
+      internalID: -5791247386294083850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_104
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 205
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be611fb6cc52a4860800000000000000
+      internalID: 7514860488135612139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_105
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 205
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9c0d238fc92cd70800000000000000
+      internalID: 9061977990041225726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_106
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 220
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082a565ca49d2aa10800000000000000
+      internalID: 1919335306375832192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_107
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 199
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9de0249c4793fc80800000000000000
+      internalID: -8290116133900456548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_108
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 202
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b8d54f3c6c54550800000000000000
+      internalID: 6144535811537603352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_109
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 200
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec8bdd68c9103c20800000000000000
+      internalID: 3184073285178199266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_110
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 204
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea204953fb215a70800000000000000
+      internalID: 8813874269915196129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_111
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 204
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51cb6e4dfbfbaa9c0800000000000000
+      internalID: -3915106095413674987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_112
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 206
+        width: 62
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006e5ad1003597660800000000000000
+      internalID: 7384024324013155840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_113
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 201
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b23cb30bfdbbe660800000000000000
+      internalID: 7416230097192759989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_114
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 238
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b3baaef5144a100800000000000000
+      internalID: 118291370433264459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_115
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 204
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8114c1688f19e67e0800000000000000
+      internalID: -1770317106922110696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_116
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 204
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b184e0afaa69ff40800000000000000
+      internalID: 5762754500748411321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_117
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 195
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f66fcb4d101ddb90800000000000000
+      internalID: -7215593309965687056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_118
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 142
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353a68884b2047780800000000000000
+      internalID: -8686314806882950317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_119
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 142
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce4c484e08df1070800000000000000
+      internalID: 8079413812380061384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_120
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 133
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811706800562f7c30800000000000000
+      internalID: 4359245089497706776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_121
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 137
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b89f3f536ecf3c50800000000000000
+      internalID: 6647258501217228976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_122
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 136
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f488f8919ca3d6b50800000000000000
+      internalID: 6587986465304578127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_123
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 136
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf784b87acdeb0e0800000000000000
+      internalID: -2252120151484235832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_124
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 139
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f157b67dada70fdf0800000000000000
+      internalID: -148483707367623393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_125
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 141
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3920cd173d369190800000000000000
+      internalID: -7956104384771774149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_126
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 142
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825450e6bb988c930800000000000000
+      internalID: 4163729293601752360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_127
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 141
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08eaeab869d93dd20800000000000000
+      internalID: 3302156221706841728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_128
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 132
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b793f465c7fa75bb0800000000000000
+      internalID: -4947292717084362373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_129
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 141
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd64ed835718196a0800000000000000
+      internalID: -6444227251325221153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_130
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 136
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d860e479c26e20800000000000000
+      internalID: 3342455377280686171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_131
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 135
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e020a617220eba0800000000000000
+      internalID: -6061807227935519210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_132
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 137
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa3e323bc6b0d9c0800000000000000
+      internalID: -3904419893092664587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_133
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 141
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fd082c3a4d4a8a0800000000000000
+      internalID: -6294672579349127309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_134
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 132
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdbc7b3e96d861c0800000000000000
+      internalID: -4510119051720344137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_135
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 73
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a0eaacfbdd8d960800000000000000
+      internalID: 7627089784760830533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_136
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad0838b7cdc4ee90800000000000000
+      internalID: -6997241663354040920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_137
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 68
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de7cdb5277025c0800000000000000
+      internalID: -4242259845001515766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_138
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 81
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f1d9e8d8f5ebbc0800000000000000
+      internalID: -3765467176847466635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_139
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 74
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8004c9dd75f4bdc50800000000000000
+      internalID: 6691028910187757576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_140
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 74
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ecb5323f829d540800000000000000
+      internalID: 5033099083298623037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_141
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 70
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b98831f1ded4de70800000000000000
+      internalID: 9139174537118124468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_142
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 69
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f5ee4f8af1fb590800000000000000
+      internalID: -7656366030982324467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_143
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 77
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a18b49b270cac10800000000000000
+      internalID: 2066034212816296498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_144
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 74
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4dad25715489670800000000000000
+      internalID: 8545656259412153534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_145
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 72
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101fd124c43473ac0800000000000000
+      internalID: -3875554959523188479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_146
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 77
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa9cd5b27d5763d0800000000000000
+      internalID: -3213497061846770948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_147
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 69
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3c6aed5d9dcb860800000000000000
+      internalID: 7547146588152841127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_148
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 72
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be87a4d58b33dc160800000000000000
+      internalID: 7047345858836855019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_149
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 75
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb474b899c1ff360800000000000000
+      internalID: 7205509374608362476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_150
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 76
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21de25eb7bc1c4960800000000000000
+      internalID: 7587471047710141714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_151
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11
+        width: 56
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981b58cf8ce71d160800000000000000
+      internalID: 7048554293506716041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_152
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1eb4ca1496dabd0800000000000000
+      internalID: -2617320077647945250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_153
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 9
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48dbb7bc3f3c6950800000000000000
+      internalID: 6443594696873465935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_154
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c967bfd88fe9652f0800000000000000
+      internalID: -984424678162729316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_155
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 6
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8770e5e32856eca0800000000000000
+      internalID: -5988001743338702965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_156
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1180f21e4fde47ae0800000000000000
+      internalID: -1552354335530219503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon-back_157
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6440c194d58264b60800000000000000
+      internalID: 7729910191551677510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1edae95372850d645a36f46c8ef5ea77
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pokemon-back_0: -7907813784081354256
+      pokemon-back_1: -7784781817899883503
+      pokemon-back_10: 9085940549818361278
+      pokemon-back_100: -4651363206650636274
+      pokemon-back_101: -4861767292712467172
+      pokemon-back_102: 4686799929838784639
+      pokemon-back_103: -5791247386294083850
+      pokemon-back_104: 7514860488135612139
+      pokemon-back_105: 9061977990041225726
+      pokemon-back_106: 1919335306375832192
+      pokemon-back_107: -8290116133900456548
+      pokemon-back_108: 6144535811537603352
+      pokemon-back_109: 3184073285178199266
+      pokemon-back_11: -1620448413356954911
+      pokemon-back_110: 8813874269915196129
+      pokemon-back_111: -3915106095413674987
+      pokemon-back_112: 7384024324013155840
+      pokemon-back_113: 7416230097192759989
+      pokemon-back_114: 118291370433264459
+      pokemon-back_115: -1770317106922110696
+      pokemon-back_116: 5762754500748411321
+      pokemon-back_117: -7215593309965687056
+      pokemon-back_118: -8686314806882950317
+      pokemon-back_119: 8079413812380061384
+      pokemon-back_12: 771923108507258113
+      pokemon-back_120: 4359245089497706776
+      pokemon-back_121: 6647258501217228976
+      pokemon-back_122: 6587986465304578127
+      pokemon-back_123: -2252120151484235832
+      pokemon-back_124: -148483707367623393
+      pokemon-back_125: -7956104384771774149
+      pokemon-back_126: 4163729293601752360
+      pokemon-back_127: 3302156221706841728
+      pokemon-back_128: -4947292717084362373
+      pokemon-back_129: -6444227251325221153
+      pokemon-back_13: 8458708066758575084
+      pokemon-back_130: 3342455377280686171
+      pokemon-back_131: -6061807227935519210
+      pokemon-back_132: -3904419893092664587
+      pokemon-back_133: -6294672579349127309
+      pokemon-back_134: -4510119051720344137
+      pokemon-back_135: 7627089784760830533
+      pokemon-back_136: -6997241663354040920
+      pokemon-back_137: -4242259845001515766
+      pokemon-back_138: -3765467176847466635
+      pokemon-back_139: 6691028910187757576
+      pokemon-back_14: -4326022952281163396
+      pokemon-back_140: 5033099083298623037
+      pokemon-back_141: 9139174537118124468
+      pokemon-back_142: -7656366030982324467
+      pokemon-back_143: 2066034212816296498
+      pokemon-back_144: 8545656259412153534
+      pokemon-back_145: -3875554959523188479
+      pokemon-back_146: -3213497061846770948
+      pokemon-back_147: 7547146588152841127
+      pokemon-back_148: 7047345858836855019
+      pokemon-back_149: 7205509374608362476
+      pokemon-back_15: -1055788507865508370
+      pokemon-back_150: 7587471047710141714
+      pokemon-back_151: 7048554293506716041
+      pokemon-back_152: -2617320077647945250
+      pokemon-back_153: 6443594696873465935
+      pokemon-back_154: -984424678162729316
+      pokemon-back_155: -5988001743338702965
+      pokemon-back_156: -1552354335530219503
+      pokemon-back_157: 7729910191551677510
+      pokemon-back_16: -2861628799075650872
+      pokemon-back_17: -6486181652676171140
+      pokemon-back_18: -2298654840198754193
+      pokemon-back_19: 6809403365893448082
+      pokemon-back_2: 1913447183115401240
+      pokemon-back_20: 7343117685868038333
+      pokemon-back_21: 1196832828215077648
+      pokemon-back_22: -1070300590255400309
+      pokemon-back_23: 7491327988725942927
+      pokemon-back_24: -5673417696062701523
+      pokemon-back_25: -3529219909752338987
+      pokemon-back_26: -4952774779424973484
+      pokemon-back_27: -913980315552060543
+      pokemon-back_28: -3532128841638127188
+      pokemon-back_29: -7941528703099990968
+      pokemon-back_3: -4696077446009522688
+      pokemon-back_30: 2756361126351629955
+      pokemon-back_31: 6709845512460652809
+      pokemon-back_32: 2761602019575224222
+      pokemon-back_33: -4132623930241975946
+      pokemon-back_34: 6803113287747811371
+      pokemon-back_35: 2877619489868184267
+      pokemon-back_36: -1629814627660687391
+      pokemon-back_37: -5822103557976661678
+      pokemon-back_38: -5364869955945444652
+      pokemon-back_39: -1870026025513460686
+      pokemon-back_4: -3331971585869470499
+      pokemon-back_40: 5972189583248032982
+      pokemon-back_41: 3750682107798500758
+      pokemon-back_42: 4238605893499445324
+      pokemon-back_43: -8890729339842105390
+      pokemon-back_44: 2482629053635092091
+      pokemon-back_45: -1016878703355002432
+      pokemon-back_46: 7335031547139631375
+      pokemon-back_47: -3257622517485586643
+      pokemon-back_48: 1271156063366844077
+      pokemon-back_49: 7158754490141867487
+      pokemon-back_5: -7312045647324493042
+      pokemon-back_50: -5472777199632906713
+      pokemon-back_51: 6699532932543228997
+      pokemon-back_52: 920628408210616463
+      pokemon-back_53: -3600926198124611475
+      pokemon-back_54: 7212938950961219521
+      pokemon-back_55: 6272342008007205977
+      pokemon-back_56: 446891013698112646
+      pokemon-back_57: 7116750102645402473
+      pokemon-back_58: 4859492506372883695
+      pokemon-back_59: -2276395318223704686
+      pokemon-back_6: 3570408334675729488
+      pokemon-back_60: -6818626986735852012
+      pokemon-back_61: -5296874181293384085
+      pokemon-back_62: -5341341362759702990
+      pokemon-back_63: -2796123230600793685
+      pokemon-back_64: 7005462161227353048
+      pokemon-back_65: -7254495350011865816
+      pokemon-back_66: 5847188802673024900
+      pokemon-back_67: -566551451881548578
+      pokemon-back_68: 5981444921913440793
+      pokemon-back_69: -1217325566537543834
+      pokemon-back_7: 4361804613339282147
+      pokemon-back_70: 1363772629186602217
+      pokemon-back_71: 4150807307285888896
+      pokemon-back_72: -4652881522432441087
+      pokemon-back_73: -4992731921378844283
+      pokemon-back_74: 5903174116698830371
+      pokemon-back_75: -3171404322686516900
+      pokemon-back_76: 2368744222194005673
+      pokemon-back_77: -3511467720999949435
+      pokemon-back_78: 5356818480465187944
+      pokemon-back_79: 2960919290388689561
+      pokemon-back_8: 487865835440712134
+      pokemon-back_80: -346147703567666441
+      pokemon-back_81: -4856841288382489115
+      pokemon-back_82: -1783101847584235024
+      pokemon-back_83: 3808972031162059093
+      pokemon-back_84: -542652298875521927
+      pokemon-back_85: 4896462825910765785
+      pokemon-back_86: 4448833427159199010
+      pokemon-back_87: 3285997438271277989
+      pokemon-back_88: -4070025628376507712
+      pokemon-back_89: -6316784237970914955
+      pokemon-back_9: 2656941310013317112
+      pokemon-back_90: -8901504008962454269
+      pokemon-back_91: 1097879090273364272
+      pokemon-back_92: -7885981381753763176
+      pokemon-back_93: 526954691579169837
+      pokemon-back_94: 2927301560079284302
+      pokemon-back_95: -6532920817416297973
+      pokemon-back_96: -2735268371781406944
+      pokemon-back_97: -4367752431708675125
+      pokemon-back_98: -758549016960309287
+      pokemon-back_99: -1236851393455055864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

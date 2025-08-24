@@ -200,6 +200,11 @@ public class NetworkManager : Singleton<NetworkManager>
                     GameDataManager.Instance.roomList = JsonHelper.FromJson<Room>(data);
                 }
                 break;
+            case CommonDefine.GET_ALL_POKEMON_DATA_URL:
+                {
+                    GameDataManager.Instance.allPokemonData = JsonHelper.FromJson<Pokemon>(data);
+                }
+                break;
         }
     }
 
@@ -208,7 +213,7 @@ public class NetworkManager : Singleton<NetworkManager>
     #region WEB_SOCKET
 
 
-    public async Task ConnectSocket(Action<SocketIOResponse> OnRoomUpdate)
+    public async Task ConnectSocket(Action<SocketIOResponse> OnRoomUpdate, Action<SocketIOResponse> OnChangeTurn)
     {
         if (client == null || client.Connected == false)
         {
@@ -229,6 +234,7 @@ public class NetworkManager : Singleton<NetworkManager>
             // 이벤트 등록
             client.OnConnected += OnConnected;
             client.On(CommonDefine.SOCKET_ROOM_UPDATE, OnRoomUpdate);
+            client.On(CommonDefine.SOCKET_CHANGE_TURN, OnChangeTurn);
 
             await client.ConnectAsync();
         }
@@ -241,9 +247,9 @@ public class NetworkManager : Singleton<NetworkManager>
 
     }
 
-    public async void CreateRoom(Action<SocketIOResponse> OnRoomUpdate, int boosId, int pokemonId)
+    public async void CreateRoom(Action<SocketIOResponse> OnRoomUpdate, Action<SocketIOResponse> OnChangeTurn, int boosId, int pokemonId)
     {
-        await ConnectSocket(OnRoomUpdate);
+        await ConnectSocket(OnRoomUpdate, OnChangeTurn);
 
         var payload = new Dictionary<string, int>
         {
@@ -254,9 +260,9 @@ public class NetworkManager : Singleton<NetworkManager>
         await client.EmitAsync(CommonDefine.SOCKET_CREATE_ROOM, payload);
     }
 
-    public async void JoinRoom(Action<SocketIOResponse> OnRoomUpdate, string roomId, int pokemonId)
+    public async void JoinRoom(Action<SocketIOResponse> OnRoomUpdate, Action<SocketIOResponse> OnChangeTurn, string roomId, int pokemonId)
     {
-        await ConnectSocket(OnRoomUpdate);
+        await ConnectSocket(OnRoomUpdate, OnChangeTurn);
 
         var payload = new Dictionary<string, object>
         {
@@ -267,9 +273,9 @@ public class NetworkManager : Singleton<NetworkManager>
         await client.EmitAsync(CommonDefine.SOCKET_JOIN_ROOM, payload);
     }
 
-    public async void LeaveRoom(Action<SocketIOResponse> OnRoomUpdate, string roomId)
+    public async void LeaveRoom(Action<SocketIOResponse> OnRoomUpdate, Action<SocketIOResponse> OnChangeTurn, string roomId)
     {
-        await ConnectSocket(OnRoomUpdate);
+        await ConnectSocket(OnRoomUpdate, OnChangeTurn);
 
         var payload = new Dictionary<string, string>
         {
@@ -277,6 +283,31 @@ public class NetworkManager : Singleton<NetworkManager>
         };
 
         await client.EmitAsync(CommonDefine.SOCKET_LEAVE_ROOM, payload);
+    }
+
+    public async void StartRaid(Action<SocketIOResponse> OnRoomUpdate, Action<SocketIOResponse> OnChangeTurn, string roomId)
+    {
+        await ConnectSocket(OnRoomUpdate, OnChangeTurn);
+
+        var payload = new Dictionary<string, string>
+        {
+            { "roomId", roomId }
+        };
+
+        await client.EmitAsync(CommonDefine.SOCKET_START_RAID, payload);
+    }
+
+    public async void RaidAction(Action<SocketIOResponse> OnRoomUpdate, Action<SocketIOResponse> OnChangeTurn, string roomId, int skillSeq)
+    {
+        await ConnectSocket(OnRoomUpdate, OnChangeTurn);
+
+        var payload = new Dictionary<string, object>
+        {
+            { "roomId", roomId },
+            { "skillSeq", skillSeq },
+        };
+
+        await client.EmitAsync(CommonDefine.SOCKET_RAID_ACTION, payload);
     }
 
     public async Task DisconnectSocket()
