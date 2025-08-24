@@ -145,6 +145,21 @@ public class LoginManager : MonoBehaviour
             Debug.Log("내 지갑 로드 실패");
         }
 
+        GetAllPokemonData();
+    }
+
+    void GetAllPokemonData()
+    {
+        NetworkManager.Instance.SendServerGet(CommonDefine.GET_ALL_POKEMON_DATA_URL, null, CallbackAllPokemonData);
+    }
+
+    void CallbackAllPokemonData(bool result)
+    {
+        if (!result)
+        {
+            Debug.Log("포켓몬 데이터 로드 실패");
+        }
+
         LoadScene(CommonDefine.GAME_SCENE);
     }
 
