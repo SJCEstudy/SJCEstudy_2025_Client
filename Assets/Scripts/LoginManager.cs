@@ -182,6 +182,22 @@ public class LoginManager : MonoBehaviour
         }
     }
 
+    void CreateMsgBoxTwoBtn(string desc, Action<bool> yesResult = null, Action<bool> noResult = null)
+    {
+        GameObject msgBoxPrefabOneBtn = Resources.Load<GameObject>("prefabs/MessageBox_2Button");
+        GameObject obj = Instantiate(msgBoxPrefabOneBtn, canvas);
+
+        obj.transform.Find("desc").GetComponent<TMP_Text>().text = desc;
+        obj.transform.Find("YesBtn").GetComponent<Button>().onClick.AddListener(() => DestroyObject(obj));
+        obj.transform.Find("NoBtn").GetComponent<Button>().onClick.AddListener(() => DestroyObject(obj));
+
+        if (yesResult != null)
+            obj.transform.Find("YesBtn").GetComponent<Button>().onClick.AddListener(() => yesResult(obj));
+
+        if (noResult != null)
+            obj.transform.Find("NoBtn").GetComponent<Button>().onClick.AddListener(() => noResult(obj));
+    }
+
     void LoadScene(string nextSceneName)
     {
         GameDataManager.Instance.nextScene = nextSceneName;
