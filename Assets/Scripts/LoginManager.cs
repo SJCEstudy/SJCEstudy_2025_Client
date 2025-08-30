@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,10 +12,13 @@ public class LoginManager : MonoBehaviour
     GameObject loginObj = null;
     GameObject registerObj = null;
 
+    Stack<Action> actions = new Stack<Action>();
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Init();
+
     }
 
    
@@ -30,17 +34,20 @@ public class LoginManager : MonoBehaviour
 
         GameObject prefab = Resources.Load<GameObject>("prefabs/Login");
         loginObj = Instantiate(prefab, canvas);
+        loginObj.transform.name = "CanvasLogin";
 
-        loginObj.transform.Find("LoginBtn").GetComponent<Button>().onClick.AddListener(OnClickSkillTest);
+        loginObj.transform.Find("LoginBtn").GetComponent<Button>().onClick.AddListener(OnClickLogin);
         loginObj.transform.Find("RegisterBtn").GetComponent<Button>().onClick.AddListener(OnClickRegisterPage);
     }
 
+    GameObject skillObj = null;
+    public Animator animator = null;
     void OnClickSkillTest()
     {
         GameObject prefab = Resources.Load<GameObject>("prefabs/Skills/bell1");
         skillObj = Instantiate(prefab, canvas);
 
-        Transform targetTrans = loginObj.transform.Find("RegisterBtn");
+        Transform targetTrans = loginObj.transform.Find("ID");
         skillObj.transform.position = targetTrans.position;
 
         animator = skillObj.transform.GetComponent<Animator>();
@@ -65,8 +72,7 @@ public class LoginManager : MonoBehaviour
         }
     }
 
-    GameObject skillObj = null;
-    public Animator animator = null;
+   
 
     // Update is called once per frame
     void Update()
@@ -88,6 +94,12 @@ public class LoginManager : MonoBehaviour
                 loginObj.transform.Find("ID").GetComponent<TMP_InputField>().ActivateInputField();
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            actions.Pop()?.Invoke();
+        }
+
     }
 
     void OnClickLogin()
