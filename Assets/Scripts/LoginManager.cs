@@ -31,15 +31,63 @@ public class LoginManager : MonoBehaviour
         GameObject prefab = Resources.Load<GameObject>("prefabs/Login");
         loginObj = Instantiate(prefab, canvas);
 
-        loginObj.transform.Find("LoginBtn").GetComponent<Button>().onClick.AddListener(OnClickLogin);
+        loginObj.transform.Find("LoginBtn").GetComponent<Button>().onClick.AddListener(OnClickSkillTest);
         loginObj.transform.Find("RegisterBtn").GetComponent<Button>().onClick.AddListener(OnClickRegisterPage);
-
     }
+
+    void OnClickSkillTest()
+    {
+        GameObject prefab = Resources.Load<GameObject>("prefabs/Skills/bell1");
+        skillObj = Instantiate(prefab, canvas);
+
+        Transform targetTrans = loginObj.transform.Find("RegisterBtn");
+        skillObj.transform.position = targetTrans.position;
+
+        animator = skillObj.transform.GetComponent<Animator>();
+    }
+
+    void CheckSkillAnimator()
+    {
+        if (animator != null)
+        {
+            Debug.Log("애니메이션 시작");
+
+            AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+            if (info.normalizedTime >= 1.0f)
+            {
+                Debug.Log("애니메이션 종료!");
+                DestroyObject(skillObj);
+            }
+        }
+        else
+        {
+            Debug.Log("animator null");
+        }
+    }
+
+    GameObject skillObj = null;
+    public Animator animator = null;
 
     // Update is called once per frame
     void Update()
     {
-        
+        CheckTabKey();
+        CheckSkillAnimator();
+    }
+
+    void CheckTabKey()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            if(loginObj.transform.Find("ID").GetComponent<TMP_InputField>().isFocused)
+            {
+                loginObj.transform.Find("Password").GetComponent<TMP_InputField>().ActivateInputField();
+            }
+            else
+            {
+                loginObj.transform.Find("ID").GetComponent<TMP_InputField>().ActivateInputField();
+            }
+        }
     }
 
     void OnClickLogin()
@@ -126,6 +174,7 @@ public class LoginManager : MonoBehaviour
         if (result)
         {
             GetMyWallet();
+
         }
         else
         {
