@@ -620,6 +620,7 @@ public class GameManager : MonoBehaviour
             }
 
             GameObject itemObj = Instantiate(itemPrefab, content);
+            itemObj.transform.name = "ShopItem" + i.ToString();
 
             itemObj.transform.Find("Icon/IconImage").GetComponent<Image>().sprite = spriteFrontAll[shopItem.pokemon.id - 1];
 
